@@ -11,14 +11,14 @@
 
 ![4DJ: due deck in sync, il mixer, le unità FX e il browser](images/main.png)
 
-4DJ è organizzato come Traktor Pro: se conosci Traktor puoi mixare subito. In più fa quello che Traktor non fa: stem creati sul tuo computer, transizioni che restano in tonalità e a tempo, un tablet come secondo schermo e controller che si mappano da soli.
+4DJ ha la disposizione che i DJ conoscono già: deck, mixer, effetti e browser dove te li aspetti, così puoi mixare subito. E va oltre: stem creati sul tuo computer, transizioni che restano in tonalità e a tempo, un tablet come secondo schermo e controller che si mappano da soli.
 
 ## Indice
 
 - [Scarica e installa](#scarica-e-installa)
 - [Cosa fa 4DJ](#cosa-fa-4dj)
 - [Screenshot](#screenshot)
-- [Traktor Kontrol S2 MK3](#traktor-kontrol-s2-mk3)
+- [Kontrol S2 MK3](#kontrol-s2-mk3)
 - [Tastiera](#tastiera)
 - [Aggiornamenti](#aggiornamenti)
 - [Domande](#domande)
@@ -34,12 +34,12 @@ Scarica l'installer per il tuo sistema dall'[ultima release](https://github.com/
 | Linux, x64 o ARM64 (Debian, Ubuntu…) | `4dj_<versione>_amd64.deb` o `_arm64.deb` | `sudo apt install ./4dj_<versione>_amd64.deb`, poi avvia 4DJ dal menu. |
 | Android 10 o successivo, tablet e telefoni | `4DJ-<versione>-android.apk` | Apri l'APK sul dispositivo e consenti l'installazione da quella fonte. |
 
-Al primo avvio il **Setup Assistant** chiede tre cose: la scheda audio, le cartelle della tua musica e quanti deck vuoi. Vieni da Traktor? **Import Traktor collection** nel browser porta le tue tracce con BPM, tonalità, beatgrid, hotcue, valutazioni e playlist. I file di Traktor vengono solo letti, mai modificati.
+Al primo avvio il **Setup Assistant** chiede tre cose: la scheda audio, le cartelle della tua musica e quanti deck vuoi. Vieni da un'altra app per DJ? **Import collection (.nml)** nel browser porta le tue tracce con BPM, tonalità, beatgrid, hotcue, valutazioni e playlist. Il file della collezione viene solo letto, mai modificato.
 
 ## Cosa fa 4DJ
 
 ### Deck
-- 2 o 4 deck, come in Traktor. Play, CUE (tenuto: anteprima, come un CDJ), 8 hotcue per traccia, loop da 1/2 a 32 battute, beatjump, Flux mode e reverse.
+- 2 o 4 deck. Play, CUE (tenuto: anteprima, come un CDJ), 8 hotcue per traccia, loop da 1/2 a 32 battute, beatjump, Flux mode e reverse.
 - Tempo fader con key lock, manopola KEY per ±12 semitoni, e SYNC (Beat Sync o Tempo Sync).
 - Scratch e nudge trascinando la waveform. Waveform a colori con zoom, overview, segni di cue e loop, e avviso prima della fine della traccia.
 
@@ -53,7 +53,7 @@ Al primo avvio il **Setup Assistant** chiede tre cose: la scheda audio, le carte
 - **SMART** nel browser ordina le tracce per quanto si mixano bene con quella in play.
 
 ### Mixer ed effetti
-- EQ e filtro che suonano come quelli di Traktor, misurati da Traktor. Crossfader con curva, auto crossfade, cue mix in cuffia.
+- EQ a tre bande e filtro in stile club. Crossfader con curva, auto crossfade, cue mix in cuffia.
 - Due unità FX con 19 effetti (delay, riverberi, flanger, phaser, gater, beatmasher e altri), Insert o Post Fader.
 - Mixer FX: la manopola del filtro può diventare un effetto. Il **Maximizer** alza il volume del master senza distorcere.
 
@@ -69,16 +69,16 @@ Al primo avvio il **Setup Assistant** chiede tre cose: la scheda audio, le carte
 
 ### Ingressi, timecode e sync
 - Deck **Live Input**: un giradischi o un CDJ attraverso EQ, filtro, FX e fader di un deck.
-- **Timecode**: un vinile di controllo Traktor Scratch o Serato muove la traccia (modalità relativa).
+- **Timecode**: vinili o CD di controllo (portante a 2 kHz o 1 kHz) muovono la traccia (modalità relativa).
 - **MIDI clock** in uscita verso drum machine e altri strumenti, o in ingresso per seguirli.
 
 ### Controller e tablet
-- La **Traktor Kontrol S2 MK3** funziona in modo nativo: vedi sotto.
+- La **Kontrol S2 MK3** funziona in modo nativo: vedi sotto.
 - I controller MIDI conosciuti si mappano da soli; tutti gli altri con il MIDI learn, oppure tenendo premuto un tasto e toccando il controllo sullo schermo.
 - **RemoteDeck**: un tablet o un telefono sulla stessa rete diventa un secondo schermo e una superficie touch (waveform, hotcue, loop, XY pad per gli effetti).
 
 ### Impostazioni
-- Tutte le pagine delle preferenze di Traktor per cui 4DJ ha la funzione, con **Export / Import** di tutte le impostazioni e **Reset to Defaults**.
+- Impostazioni complete, con **Export / Import** di tutte le impostazioni e **Reset to Defaults**.
 
 ## Screenshot
 
@@ -95,13 +95,13 @@ Al primo avvio il **Setup Assistant** chiede tre cose: la scheda audio, le carte
 | ![Updates](images/settings-updates.png) | |
 | **Updates**: controllo automatico e Check for Updates. | |
 
-## Traktor Kontrol S2 MK3
+## Kontrol S2 MK3
 
 Collegala e 4DJ la usa subito, scheda audio compresa (master e cuffie).
 
 | Controllo | In 4DJ |
 |---|---|
-| PLAY, CUE, SYNC, KEYLOCK | Come in Traktor (SHIFT + CUE: torna all'inizio; SHIFT + SYNC: master; SHIFT + KEYLOCK: range del tempo) |
+| PLAY, CUE, SYNC, KEYLOCK | Come scritto sulla console (SHIFT + CUE: torna all'inizio; SHIFT + SYNC: master; SHIFT + KEYLOCK: range del tempo) |
 | FLX, REV | Flux mode; reverse finché tenuto |
 | Jog | Sopra: scratch. Bordo: nudge. SHIFT: ricerca veloce |
 | Pad | HOTCUES, SHIFT + HOTCUES = loop, SAMPLES = Remix Deck, SHIFT + SAMPLES = stem |
@@ -142,8 +142,10 @@ Su Windows e Linux ⌘ è Ctrl. In 4DJ premi **?** per l'elenco completo.
 
 **Dove sono le mie registrazioni?** In Musica/4DJ Recordings, o nella cartella scelta in **Impostazioni → Recording → Mix Recorder**.
 
-**Posso usare la mia collezione di Traktor?** Sì: **Import Traktor collection** nel browser. La legge e non cambia nulla in Traktor.
+**Posso portare la collezione da un'altra app per DJ?** Sì, da un file collection.nml: **Import collection (.nml)** nel browser. Il file viene solo letto, mai modificato.
 
 ---
 
 Copyright © 2026 Enrico Fanucchi. Tutti i diritti riservati. Componenti di terze parti: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+Kontrol S2 MK3 è un prodotto di Native Instruments GmbH; gli altri nomi sono marchi dei rispettivi proprietari. 4DJ è un software indipendente, non affiliato né approvato da loro.

@@ -11,14 +11,14 @@
 
 ![4DJ: two decks in sync, the mixer, FX units and the browser](images/main.png)
 
-4DJ is laid out like Traktor Pro, so if you know Traktor you can start mixing right away. It adds what Traktor does not have: stems made on your own computer, transitions that stay in key and in tempo, a tablet as a second screen, and controllers that map themselves.
+4DJ has the layout DJs already know: decks, mixer, effects and browser where you expect them, so you can start mixing right away. And it goes further: stems made on your own computer, transitions that stay in key and in tempo, a tablet as a second screen, and controllers that map themselves.
 
 ## Contents
 
 - [Download and install](#download-and-install)
 - [What 4DJ does](#what-4dj-does)
 - [Screenshots](#screenshots)
-- [Traktor Kontrol S2 MK3](#traktor-kontrol-s2-mk3)
+- [Kontrol S2 MK3](#kontrol-s2-mk3)
 - [Keyboard](#keyboard)
 - [Updates](#updates)
 - [Questions](#questions)
@@ -34,12 +34,12 @@ Download the installer for your system from the [latest release](https://github.
 | Linux, x64 or ARM64 (Debian, Ubuntu…) | `4dj_<version>_amd64.deb` or `_arm64.deb` | `sudo apt install ./4dj_<version>_amd64.deb`, then start 4DJ from the menu. |
 | Android 10 or later, tablets and phones | `4DJ-<version>-android.apk` | Open the APK on the device and allow installing from that source. |
 
-On first start the **Setup Assistant** asks for three things: the sound card, your music folders and how many decks you want. Coming from Traktor? **Import Traktor collection** in the browser brings in your tracks with their BPM, keys, beatgrids, hotcues, ratings and playlists. Traktor's own files are only read, never changed.
+On first start the **Setup Assistant** asks for three things: the sound card, your music folders and how many decks you want. Coming from another DJ app? **Import collection (.nml)** in the browser brings in your tracks with their BPM, keys, beatgrids, hotcues, ratings and playlists. The collection file is only read, never changed.
 
 ## What 4DJ does
 
 ### Decks
-- 2 or 4 decks, as in Traktor. Play, CUE (hold to preview, like a CDJ), 8 hotcues per track, loops from 1/2 to 32 beats, beatjump, Flux mode and reverse.
+- 2 or 4 decks. Play, CUE (hold to preview, like a CDJ), 8 hotcues per track, loops from 1/2 to 32 beats, beatjump, Flux mode and reverse.
 - Tempo fader with key lock, a KEY knob for ±12 semitones, and SYNC (Beat Sync or Tempo Sync).
 - Scratch and nudge by dragging the waveform. Colour waveforms with zoom, overview, cue and loop markers, and a warning before the end of the track.
 
@@ -53,7 +53,7 @@ On first start the **Setup Assistant** asks for three things: the sound card, yo
 - **SMART** in the browser sorts the tracks by how well they mix with the one playing.
 
 ### Mixer and effects
-- EQ and filter that sound like Traktor's, measured from it. Crossfader with curve, auto crossfade, headphone cue mix.
+- A club-style three-band EQ and filter. Crossfader with curve, auto crossfade, headphone cue mix.
 - Two FX units with 19 effects (delays, reverbs, flanger, phaser, gater, beatmasher and more), Insert or Post Fader.
 - Mixer FX: the filter knob can be an effect. A **Maximizer** makes the master louder without clipping.
 
@@ -69,16 +69,16 @@ On first start the **Setup Assistant** asks for three things: the sound card, yo
 
 ### Inputs, timecode and sync
 - **Live Input** decks: a turntable or a CDJ through a deck's EQ, filter, FX and fader.
-- **Timecode**: Traktor Scratch or Serato control vinyl moves the track (relative mode).
+- **Timecode**: control vinyl or CDs (2 kHz or 1 kHz carrier) move the track (relative mode).
 - **MIDI clock** out to drum machines and other gear, or in to follow them.
 
 ### Controllers and tablet
-- **Traktor Kontrol S2 MK3** works natively: see below.
+- The **Kontrol S2 MK3** works natively: see below.
 - MIDI controllers are mapped automatically when known; any other is mapped with MIDI learn, or by holding a button and touching the control on screen.
 - **RemoteDeck**: a tablet or phone on the same network becomes a second screen and a touch surface (waveforms, hotcues, loops, XY pad for effects).
 
 ### Settings
-- Every page of Traktor's preferences that 4DJ has a function for, with **Export / Import** of all settings and **Reset to Defaults**.
+- Complete settings, with **Export / Import** of all settings and **Reset to Defaults**.
 
 ## Screenshots
 
@@ -95,13 +95,13 @@ On first start the **Setup Assistant** asks for three things: the sound card, yo
 | ![Updates](images/settings-updates.png) | |
 | **Updates**: automatic check and Check for Updates. | |
 
-## Traktor Kontrol S2 MK3
+## Kontrol S2 MK3
 
 Plug it in and 4DJ uses it at once, sound card included (master and headphones).
 
 | Control | In 4DJ |
 |---|---|
-| PLAY, CUE, SYNC, KEYLOCK | As in Traktor (SHIFT + CUE: back to the start; SHIFT + SYNC: master; SHIFT + KEYLOCK: tempo range) |
+| PLAY, CUE, SYNC, KEYLOCK | As printed on the console (SHIFT + CUE: back to the start; SHIFT + SYNC: master; SHIFT + KEYLOCK: tempo range) |
 | FLX, REV | Flux mode; reverse while held |
 | Jog wheel | Top: scratch. Side: nudge. SHIFT: fast search |
 | Pads | HOTCUES, SHIFT + HOTCUES = loops, SAMPLES = Remix Deck, SHIFT + SAMPLES = stems |
@@ -142,8 +142,10 @@ On Windows and Linux, ⌘ is Ctrl. Press **?** in 4DJ for the full list.
 
 **Where are my recordings?** In Music/4DJ Recordings, or the folder chosen in **Settings → Recording → Mix Recorder**.
 
-**Can I use my Traktor collection?** Yes: **Import Traktor collection** in the browser. It reads it and changes nothing in Traktor.
+**Can I bring my collection from another DJ app?** Yes, from a collection.nml file: **Import collection (.nml)** in the browser. The file is only read, never changed.
 
 ---
 
 Copyright © 2026 Enrico Fanucchi. All rights reserved. Third-party components: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+Kontrol S2 MK3 is a product of Native Instruments GmbH; other names are trademarks of their owners. 4DJ is independent software, not affiliated with or endorsed by them.
