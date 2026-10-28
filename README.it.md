@@ -32,9 +32,9 @@ Scarica l'installer per il tuo sistema dall'[ultima release](https://github.com/
 |---|---|---|
 | macOS 13.4 o successivo (Apple Silicon e Intel) | `4DJ-<versione>-macOS.dmg` | Apri il DMG e trascina 4DJ in Applicazioni. La prima volta macOS può dire che non riesce a verificare l'app: apri **Impostazioni di Sistema → Privacy e sicurezza** e scegli **Apri comunque**. |
 | Windows 10/11, x64 o ARM64 | `4DJ-<versione>-windows-x64.msi` o `-arm64.msi` | Avvia l'MSI. Se SmartScreen lo blocca, scegli **Ulteriori informazioni → Esegui comunque**. |
-| Linux x64: Debian, Ubuntu, Mint… | `4dj_<versione>_amd64.deb` | Aprilo con il programma di installazione, oppure `sudo apt install ./4dj_<versione>_amd64.deb`. |
-| Linux x64: Fedora, openSUSE… | `4dj-<versione>-1.x86_64.rpm` | Aprilo con il programma di installazione, oppure `sudo dnf install ./4dj-<versione>-1.x86_64.rpm`. |
-| Linux x64: qualsiasi distribuzione | `4DJ-<versione>-linux-x86_64.AppImage` | Rendilo eseguibile (Proprietà → Consenti l'esecuzione) e aprilo. |
+| Linux x64 o ARM64: Debian, Ubuntu, Mint… | `4dj_<versione>_amd64.deb` o `_arm64.deb` | Aprilo con il programma di installazione, oppure `sudo apt install ./4dj_<versione>_amd64.deb` (`_arm64.deb` su ARM). |
+| Linux x64 o ARM64: Fedora, openSUSE… | `4dj-<versione>-1.x86_64.rpm` o `.aarch64.rpm` | Aprilo con il programma di installazione, oppure `sudo dnf install ./4dj-<versione>-1.x86_64.rpm` (`.aarch64.rpm` su ARM). |
+| Linux x64 o ARM64: qualsiasi distribuzione | `4DJ-<versione>-linux-x86_64.AppImage` o `-aarch64.AppImage` | Rendilo eseguibile (Proprietà → Consenti l'esecuzione) e aprilo. |
 | Android 10 o successivo, tablet e telefoni | `4DJ-<versione>-android.apk` | Apri l'APK sul dispositivo e consenti l'installazione da quella fonte. |
 
 Al primo avvio il **Setup Assistant** chiede tre cose: la scheda audio, le cartelle della tua musica e quanti deck vuoi. Vieni da un'altra app per DJ? **Import collection (.nml)** nel browser porta le tue tracce con BPM, tonalità, beatgrid, hotcue, valutazioni e playlist. Il file della collezione viene solo letto, mai modificato.

@@ -32,9 +32,9 @@ Download the installer for your system from the [latest release](https://github.
 |---|---|---|
 | macOS 13.4 or later (Apple Silicon and Intel) | `4DJ-<version>-macOS.dmg` | Open the DMG and drag 4DJ to Applications. The first time, macOS may say it cannot check the app: open **System Settings → Privacy & Security** and choose **Open Anyway**. |
 | Windows 10/11, x64 or ARM64 | `4DJ-<version>-windows-x64.msi` or `-arm64.msi` | Run the MSI. If SmartScreen stops it, choose **More info → Run anyway**. |
-| Linux x64: Debian, Ubuntu, Mint… | `4dj_<version>_amd64.deb` | Open it with your software installer, or `sudo apt install ./4dj_<version>_amd64.deb`. |
-| Linux x64: Fedora, openSUSE… | `4dj-<version>-1.x86_64.rpm` | Open it with your software installer, or `sudo dnf install ./4dj-<version>-1.x86_64.rpm`. |
-| Linux x64: any distribution | `4DJ-<version>-linux-x86_64.AppImage` | Make it executable (Properties → Allow executing) and open it. |
+| Linux x64 or ARM64: Debian, Ubuntu, Mint… | `4dj_<version>_amd64.deb` or `_arm64.deb` | Open it with your software installer, or `sudo apt install ./4dj_<version>_amd64.deb` (`_arm64.deb` on ARM). |
+| Linux x64 or ARM64: Fedora, openSUSE… | `4dj-<version>-1.x86_64.rpm` or `.aarch64.rpm` | Open it with your software installer, or `sudo dnf install ./4dj-<version>-1.x86_64.rpm` (`.aarch64.rpm` on ARM). |
+| Linux x64 or ARM64: any distribution | `4DJ-<version>-linux-x86_64.AppImage` or `-aarch64.AppImage` | Make it executable (Properties → Allow executing) and open it. |
 | Android 10 or later, tablets and phones | `4DJ-<version>-android.apk` | Open the APK on the device and allow installing from that source. |
 
 On first start the **Setup Assistant** asks for three things: the sound card, your music folders and how many decks you want. Coming from another DJ app? **Import collection (.nml)** in the browser brings in your tracks with their BPM, keys, beatgrids, hotcues, ratings and playlists. The collection file is only read, never changed.
