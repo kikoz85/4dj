@@ -16,6 +16,7 @@
 ## Contents
 
 - [Download and install](#download-and-install)
+- [System requirements](#system-requirements)
 - [What 4DJ does](#what-4dj-does)
 - [Screenshots](#screenshots)
 - [Kontrol S2 MK3](#kontrol-s2-mk3)
@@ -31,10 +32,28 @@ Download the installer for your system from the [latest release](https://github.
 |---|---|---|
 | macOS 13.4 or later (Apple Silicon and Intel) | `4DJ-<version>-macOS.dmg` | Open the DMG and drag 4DJ to Applications. The first time, macOS may say it cannot check the app: open **System Settings → Privacy & Security** and choose **Open Anyway**. |
 | Windows 10/11, x64 or ARM64 | `4DJ-<version>-windows-x64.msi` or `-arm64.msi` | Run the MSI. If SmartScreen stops it, choose **More info → Run anyway**. |
-| Linux, x64 or ARM64 (Debian, Ubuntu…) | `4dj_<version>_amd64.deb` or `_arm64.deb` | `sudo apt install ./4dj_<version>_amd64.deb`, then start 4DJ from the menu. |
+| Linux x64: Debian, Ubuntu, Mint… | `4dj_<version>_amd64.deb` | Open it with your software installer, or `sudo apt install ./4dj_<version>_amd64.deb`. |
+| Linux x64: Fedora, openSUSE… | `4dj-<version>-1.x86_64.rpm` | Open it with your software installer, or `sudo dnf install ./4dj-<version>-1.x86_64.rpm`. |
+| Linux x64: any distribution | `4DJ-<version>-linux-x86_64.AppImage` | Make it executable (Properties → Allow executing) and open it. |
 | Android 10 or later, tablets and phones | `4DJ-<version>-android.apk` | Open the APK on the device and allow installing from that source. |
 
 On first start the **Setup Assistant** asks for three things: the sound card, your music folders and how many decks you want. Coming from another DJ app? **Import collection (.nml)** in the browser brings in your tracks with their BPM, keys, beatgrids, hotcues, ratings and playlists. The collection file is only read, never changed.
+
+## System requirements
+
+| | Minimum | Recommended |
+|---|---|---|
+| **macOS** | macOS 13.4, Intel or Apple Silicon, 8 GB RAM | Apple Silicon (M1 or later), 16 GB RAM |
+| **Windows** | Windows 10 64-bit (x64 or ARM64), dual-core CPU, 8 GB RAM | Windows 11, quad-core CPU (Intel Core i5 8th gen / Ryzen 5 or better), 16 GB RAM |
+| **Linux** | 64-bit (x64 or ARM64) with glibc 2.35: Ubuntu 22.04, Debian 12, Fedora 36 or later; GTK 3, PipeWire or ALSA; quad-core CPU, 8 GB RAM | Ubuntu 24.04, Debian 13, Fedora 39 or later (needed for StemX); PipeWire; 16 GB RAM |
+| **Android** | Android 10, 4 GB RAM | 64-bit device with 8 GB RAM (StemX) |
+
+For every system:
+
+- **Disk:** about 1 GB for 4DJ and the StemX model, plus about 13 MB for each minute of music you separate into stems. An SSD loads tracks faster.
+- **Sound:** any sound card works. To hear the next track in headphones you need a card with 4 outputs or a DJ controller with its own sound card (such as the Kontrol S2 MK3).
+- **Screen:** 1280 × 800 or larger.
+- **StemX** runs on the processor and is the heaviest task: on a low-power PC (such as an Intel N95) a track takes a few minutes; you can prepare stems in advance from the browser.
 
 ## What 4DJ does
 
@@ -97,7 +116,9 @@ On first start the **Setup Assistant** asks for three things: the sound card, yo
 
 ## Kontrol S2 MK3
 
-Plug it in and 4DJ uses it at once, sound card included (master and headphones), on macOS and Windows. On Windows 4DJ takes its sound card in low-latency mode (about 7 ms).
+Plug it in and 4DJ uses it at once, sound card included (master and headphones), on macOS, Windows and Linux. On Windows and Linux 4DJ takes its sound card in low-latency mode: about 7 ms on Windows, about 8 ms on Linux (16 ms where the system does not give audio real-time priority, so that it never drops out).
+
+On Linux the .deb and .rpm also give 4DJ access to the console when they install: nothing else to do. With the AppImage, the first time you plug the console in 4DJ asks to enable it: choose **Enable** and type your password once.
 
 | Control | In 4DJ |
 |---|---|

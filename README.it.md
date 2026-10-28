@@ -16,6 +16,7 @@
 ## Indice
 
 - [Scarica e installa](#scarica-e-installa)
+- [Requisiti di sistema](#requisiti-di-sistema)
 - [Cosa fa 4DJ](#cosa-fa-4dj)
 - [Screenshot](#screenshot)
 - [Kontrol S2 MK3](#kontrol-s2-mk3)
@@ -31,10 +32,28 @@ Scarica l'installer per il tuo sistema dall'[ultima release](https://github.com/
 |---|---|---|
 | macOS 13.4 o successivo (Apple Silicon e Intel) | `4DJ-<versione>-macOS.dmg` | Apri il DMG e trascina 4DJ in Applicazioni. La prima volta macOS può dire che non riesce a verificare l'app: apri **Impostazioni di Sistema → Privacy e sicurezza** e scegli **Apri comunque**. |
 | Windows 10/11, x64 o ARM64 | `4DJ-<versione>-windows-x64.msi` o `-arm64.msi` | Avvia l'MSI. Se SmartScreen lo blocca, scegli **Ulteriori informazioni → Esegui comunque**. |
-| Linux, x64 o ARM64 (Debian, Ubuntu…) | `4dj_<versione>_amd64.deb` o `_arm64.deb` | `sudo apt install ./4dj_<versione>_amd64.deb`, poi avvia 4DJ dal menu. |
+| Linux x64: Debian, Ubuntu, Mint… | `4dj_<versione>_amd64.deb` | Aprilo con il programma di installazione, oppure `sudo apt install ./4dj_<versione>_amd64.deb`. |
+| Linux x64: Fedora, openSUSE… | `4dj-<versione>-1.x86_64.rpm` | Aprilo con il programma di installazione, oppure `sudo dnf install ./4dj-<versione>-1.x86_64.rpm`. |
+| Linux x64: qualsiasi distribuzione | `4DJ-<versione>-linux-x86_64.AppImage` | Rendilo eseguibile (Proprietà → Consenti l'esecuzione) e aprilo. |
 | Android 10 o successivo, tablet e telefoni | `4DJ-<versione>-android.apk` | Apri l'APK sul dispositivo e consenti l'installazione da quella fonte. |
 
 Al primo avvio il **Setup Assistant** chiede tre cose: la scheda audio, le cartelle della tua musica e quanti deck vuoi. Vieni da un'altra app per DJ? **Import collection (.nml)** nel browser porta le tue tracce con BPM, tonalità, beatgrid, hotcue, valutazioni e playlist. Il file della collezione viene solo letto, mai modificato.
+
+## Requisiti di sistema
+
+| | Minimi | Consigliati |
+|---|---|---|
+| **macOS** | macOS 13.4, Intel o Apple Silicon, 8 GB di RAM | Apple Silicon (M1 o successivo), 16 GB di RAM |
+| **Windows** | Windows 10 a 64 bit (x64 o ARM64), CPU dual-core, 8 GB di RAM | Windows 11, CPU quad-core (Intel Core i5 di 8ª generazione / Ryzen 5 o superiore), 16 GB di RAM |
+| **Linux** | 64 bit (x64 o ARM64) con glibc 2.35: Ubuntu 22.04, Debian 12, Fedora 36 o successivi; GTK 3, PipeWire o ALSA; CPU quad-core, 8 GB di RAM | Ubuntu 24.04, Debian 13, Fedora 39 o successivi (necessari per StemX); PipeWire; 16 GB di RAM |
+| **Android** | Android 10, 4 GB di RAM | Dispositivo a 64 bit con 8 GB di RAM (StemX) |
+
+Per tutti i sistemi:
+
+- **Disco:** circa 1 GB per 4DJ e il modello StemX, più circa 13 MB per ogni minuto di musica separata in stem. Un SSD carica le tracce più in fretta.
+- **Audio:** va bene qualsiasi scheda audio. Per ascoltare in cuffia la traccia successiva serve una scheda con 4 uscite o un controller DJ con scheda audio integrata (come la Kontrol S2 MK3).
+- **Schermo:** 1280 × 800 o più grande.
+- **StemX** lavora sul processore ed è il compito più pesante: su un PC a basso consumo (come un Intel N95) una traccia richiede qualche minuto; puoi preparare gli stem in anticipo dal browser.
 
 ## Cosa fa 4DJ
 
@@ -97,7 +116,9 @@ Al primo avvio il **Setup Assistant** chiede tre cose: la scheda audio, le carte
 
 ## Kontrol S2 MK3
 
-Collegala e 4DJ la usa subito, scheda audio compresa (master e cuffie), su macOS e Windows. Su Windows 4DJ usa la sua scheda in modalità a bassa latenza (circa 7 ms).
+Collegala e 4DJ la usa subito, scheda audio compresa (master e cuffie), su macOS, Windows e Linux. Su Windows e Linux 4DJ usa la sua scheda in modalità a bassa latenza: circa 7 ms su Windows, circa 8 ms su Linux (16 ms dove il sistema non dà la priorità real-time all'audio, così non ci sono interruzioni).
+
+Su Linux il .deb e l'.rpm danno a 4DJ l'accesso alla console già durante l'installazione: non c'è altro da fare. Con l'AppImage, la prima volta che colleghi la console 4DJ chiede di abilitarla: scegli **Enable** e inserisci la password una volta.
 
 | Controllo | In 4DJ |
 |---|---|
