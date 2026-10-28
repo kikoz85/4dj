@@ -102,6 +102,7 @@ Per tutti i sistemi:
 - **Day e Night**: due aspetti, scelti con il sole e la luna in alto a destra. Night è nero e oro per le consolle al buio, Day è chiaro per la luce del giorno e i set all'aperto.
 - Sui portatili la barra in alto mostra la **batteria**, così durante un set senza corrente sai sempre quanta ne resta.
 - I knob mostrano il valore in percentuale mentre si muovono.
+- Una schermata di caricamento mostra la versione e ogni parte di 4DJ mentre si carica.
 - Impostazioni complete, con **Export / Import** di tutte le impostazioni e **Reset to Defaults**.
 
 ## Screenshot
@@ -121,7 +122,7 @@ Per tutti i sistemi:
 
 ## Kontrol S2 MK3
 
-Collegala e 4DJ la usa subito, scheda audio compresa (master e cuffie), su macOS, Windows e Linux. Su Windows e Linux 4DJ usa la sua scheda in modalità a bassa latenza: circa 7 ms su Windows, circa 8 ms su Linux (16 ms dove il sistema non dà la priorità real-time all'audio, così non ci sono interruzioni).
+Collegala e 4DJ la usa subito, scheda audio compresa (master e cuffie), su macOS, Windows e Linux. 4DJ parte da come è impostata la console: fader, EQ, gain, filtro, crossfader e volume vengono letti quando si collega, così un fader abbassato o i bassi al massimo lasciati sulla console si ritrovano uguali sullo schermo. Quando chiudi 4DJ, le luci della console si spengono. Su Windows e Linux 4DJ usa la sua scheda in modalità a bassa latenza: circa 7 ms su Windows, circa 8 ms su Linux (16 ms dove il sistema non dà la priorità real-time all'audio, così non ci sono interruzioni).
 
 Su Linux il .deb e l'.rpm danno a 4DJ l'accesso alla console già durante l'installazione: non c'è altro da fare. Con l'AppImage, la prima volta che colleghi la console 4DJ chiede di abilitarla: scegli **Enable** e inserisci la password una volta.
 

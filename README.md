@@ -102,6 +102,7 @@ For every system:
 - **Day and Night**: two looks, switched with the sun and the moon at the top right. Night is black and gold for dark booths, Day is light for daylight and outdoor sets.
 - On a laptop the top bar shows the **battery**, so you always know how much is left during a set without mains power.
 - Knobs show their value in percent while they move.
+- A loading screen shows the version and each part of 4DJ as it loads.
 - Complete settings, with **Export / Import** of all settings and **Reset to Defaults**.
 
 ## Screenshots
@@ -121,7 +122,7 @@ For every system:
 
 ## Kontrol S2 MK3
 
-Plug it in and 4DJ uses it at once, sound card included (master and headphones), on macOS, Windows and Linux. On Windows and Linux 4DJ takes its sound card in low-latency mode: about 7 ms on Windows, about 8 ms on Linux (16 ms where the system does not give audio real-time priority, so that it never drops out).
+Plug it in and 4DJ uses it at once, sound card included (master and headphones), on macOS, Windows and Linux. 4DJ starts where the console is set: faders, EQ, gain, filter, crossfader and volume are read from it when it connects, so a low fader or a full bass knob left on the console is the same on screen. When 4DJ closes, the console's lights go off. On Windows and Linux 4DJ takes its sound card in low-latency mode: about 7 ms on Windows, about 8 ms on Linux (16 ms where the system does not give audio real-time priority, so that it never drops out).
 
 On Linux the .deb and .rpm also give 4DJ access to the console when they install: nothing else to do. With the AppImage, the first time you plug the console in 4DJ asks to enable it: choose **Enable** and type your password once.
 
