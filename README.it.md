@@ -11,6 +11,8 @@
 
 ![4DJ: due deck in sync, il mixer, le unità FX e il browser](images/main.png)
 
+![Lo stesso con l'aspetto Day](images/main-day.png)
+
 4DJ ha la disposizione che i DJ conoscono già: deck, mixer, effetti e browser dove te li aspetti, così puoi mixare subito. E va oltre: stem creati sul tuo computer, transizioni che restano in tonalità e a tempo, un tablet come secondo schermo e controller che si mappano da soli.
 
 ## Indice
@@ -96,7 +98,10 @@ Per tutti i sistemi:
 - I controller MIDI conosciuti si mappano da soli; tutti gli altri con il MIDI learn, oppure tenendo premuto un tasto e toccando il controllo sullo schermo.
 - **RemoteDeck**: un tablet o un telefono sulla stessa rete diventa un secondo schermo e una superficie touch (waveform, hotcue, loop, XY pad per gli effetti).
 
-### Impostazioni
+### Aspetto e impostazioni
+- **Day e Night**: due aspetti, scelti con il sole e la luna in alto a destra. Night è nero e oro per le consolle al buio, Day è chiaro per la luce del giorno e i set all'aperto.
+- Sui portatili la barra in alto mostra la **batteria**, così durante un set senza corrente sai sempre quanta ne resta.
+- I knob mostrano il valore in percentuale mentre si muovono.
 - Impostazioni complete, con **Export / Import** di tutte le impostazioni e **Reset to Defaults**.
 
 ## Screenshot
