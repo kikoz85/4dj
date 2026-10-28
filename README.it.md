@@ -39,7 +39,7 @@ Al primo avvio il **Setup Assistant** chiede tre cose: la scheda audio, le carte
 ## Cosa fa 4DJ
 
 ### Deck
-- 2 o 4 deck. Play, CUE (tenuto: anteprima, come un CDJ), 8 hotcue per traccia, loop da 1/2 a 32 battute, beatjump, Flux mode e reverse.
+- 2 o 4 deck. Play, CUE (tenuto: anteprima, come un CDJ), 8 hotcue per traccia, loop da 1/2 a 32 battute, beatjump, Slip mode e reverse.
 - Tempo fader con key lock, manopola KEY per ±12 semitoni, e SYNC (Beat Sync o Tempo Sync).
 - Scratch e nudge trascinando la waveform. Waveform a colori con zoom, overview, segni di cue e loop, e avviso prima della fine della traccia.
 
@@ -97,14 +97,14 @@ Al primo avvio il **Setup Assistant** chiede tre cose: la scheda audio, le carte
 
 ## Kontrol S2 MK3
 
-Collegala e 4DJ la usa subito, scheda audio compresa (master e cuffie).
+Collegala e 4DJ la usa subito, scheda audio compresa (master e cuffie), su macOS e Windows. Su Windows 4DJ usa la sua scheda in modalità a bassa latenza (circa 7 ms).
 
 | Controllo | In 4DJ |
 |---|---|
 | PLAY, CUE, SYNC, KEYLOCK | Come scritto sulla console (SHIFT + CUE: torna all'inizio; SHIFT + SYNC: master; SHIFT + KEYLOCK: range del tempo) |
-| FLX, REV | Flux mode; reverse finché tenuto |
+| FLX, REV | Slip mode; reverse finché tenuto |
 | Jog | Sopra: scratch. Bordo: nudge. SHIFT: ricerca veloce |
-| Pad | HOTCUES, SHIFT + HOTCUES = loop, SAMPLES = Remix Deck, SHIFT + SAMPLES = stem |
+| Pad | HOTCUES, SHIFT + HOTCUES = loop, SAMPLES = Sample Deck, SHIFT + SAMPLES = stem |
 | BROWSE | Gira per scegliere, premi per caricare |
 | MOVE | Beatjump |
 | LOOP | Gira: ridimensiona il loop attivo o sceglie la misura del prossimo. Premi: loop acceso/spento |
@@ -139,6 +139,8 @@ Su Windows e Linux ⌘ è Ctrl. In 4DJ premi **?** per l'elenco completo.
 **Dove sono le mie impostazioni?** In 4DJ. **Impostazioni → Export…** le salva in un file, per un backup o un altro computer; **Import…** le riporta.
 
 **4DJ modifica i miei file musicali?** No. BPM, tonalità, griglie, cue e valutazioni restano nella libreria di 4DJ.
+
+**Su Windows, perché le altre app non suonano sulla scheda della console?** Per la latenza più bassa 4DJ prende la scheda della Kontrol S2 MK3 tutta per sé (modalità esclusiva). Le altre app tornano a suonare quando chiudi 4DJ; in **Impostazioni → Audio → Devices** puoi spegnere la modalità esclusiva (latenza più alta).
 
 **Dove sono le mie registrazioni?** In Musica/4DJ Recordings, o nella cartella scelta in **Impostazioni → Recording → Mix Recorder**.
 

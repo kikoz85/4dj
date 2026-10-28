@@ -39,7 +39,7 @@ On first start the **Setup Assistant** asks for three things: the sound card, yo
 ## What 4DJ does
 
 ### Decks
-- 2 or 4 decks. Play, CUE (hold to preview, like a CDJ), 8 hotcues per track, loops from 1/2 to 32 beats, beatjump, Flux mode and reverse.
+- 2 or 4 decks. Play, CUE (hold to preview, like a CDJ), 8 hotcues per track, loops from 1/2 to 32 beats, beatjump, Slip mode and reverse.
 - Tempo fader with key lock, a KEY knob for ±12 semitones, and SYNC (Beat Sync or Tempo Sync).
 - Scratch and nudge by dragging the waveform. Colour waveforms with zoom, overview, cue and loop markers, and a warning before the end of the track.
 
@@ -97,14 +97,14 @@ On first start the **Setup Assistant** asks for three things: the sound card, yo
 
 ## Kontrol S2 MK3
 
-Plug it in and 4DJ uses it at once, sound card included (master and headphones).
+Plug it in and 4DJ uses it at once, sound card included (master and headphones), on macOS and Windows. On Windows 4DJ takes its sound card in low-latency mode (about 7 ms).
 
 | Control | In 4DJ |
 |---|---|
 | PLAY, CUE, SYNC, KEYLOCK | As printed on the console (SHIFT + CUE: back to the start; SHIFT + SYNC: master; SHIFT + KEYLOCK: tempo range) |
-| FLX, REV | Flux mode; reverse while held |
+| FLX, REV | Slip mode; reverse while held |
 | Jog wheel | Top: scratch. Side: nudge. SHIFT: fast search |
-| Pads | HOTCUES, SHIFT + HOTCUES = loops, SAMPLES = Remix Deck, SHIFT + SAMPLES = stems |
+| Pads | HOTCUES, SHIFT + HOTCUES = loops, SAMPLES = Sample Deck, SHIFT + SAMPLES = stems |
 | BROWSE | Turn to choose, push to load |
 | MOVE | Beatjump |
 | LOOP | Turn: resize the active loop, or pick the size of the next. Push: loop on/off |
@@ -139,6 +139,8 @@ On Windows and Linux, ⌘ is Ctrl. Press **?** in 4DJ for the full list.
 **Where are my settings?** In 4DJ. **Settings → Export…** saves them to a file, for a backup or another computer; **Import…** brings them back.
 
 **Does 4DJ change my music files?** No. BPM, keys, grids, cues and ratings stay in 4DJ's library.
+
+**On Windows, why do other apps go silent on the console's sound card?** For the lowest latency 4DJ takes the Kontrol S2 MK3's card for itself (exclusive mode). Other apps play again when 4DJ closes; in **Settings → Audio → Devices** you can switch exclusive mode off (higher latency).
 
 **Where are my recordings?** In Music/4DJ Recordings, or the folder chosen in **Settings → Recording → Mix Recorder**.
 
