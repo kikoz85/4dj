@@ -9,6 +9,11 @@
   <b>English</b> · <a href="README.it.md">Italiano</a> · <a href="https://github.com/kikoz85/4dj/releases/latest"><b>Download</b></a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/kikoz85/4dj/releases/latest"><img src="https://img.shields.io/github/v/release/kikoz85/4dj?label=download&color=D4A64A" alt="Download"></a>
+  <a href="https://github.com/sponsors/kikoz85"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white" alt="Sponsor 4DJ on GitHub"></a>
+</p>
+
 ![4DJ: two decks in sync, the mixer, FX units and the browser](images/main.png)
 
 ![The same in the Day look](images/main-day.png)
@@ -24,6 +29,7 @@
 - [Kontrol S2 MK3](#kontrol-s2-mk3)
 - [Keyboard](#keyboard)
 - [Updates](#updates)
+- [Support 4DJ](#support-4dj)
 - [Questions](#questions)
 
 ## Download and install
@@ -165,7 +171,11 @@ On Windows and Linux, ⌘ is Ctrl. Press **?** in 4DJ for the full list.
 
 ## Updates
 
-4DJ checks for a new release once a day at start and tells you when there is one. In **Settings → Interface → Updates** you can switch this off, or use **Check for Updates** at any time. **Download and Install** downloads the installer for your system and opens it; nothing is installed without you.
+4DJ looks for a new release at every start and every few hours; when there is one, **UPDATE** shows at the top until you install it. In **Settings → Interface → Updates** you can switch this off, or use **Check for Updates** at any time. **Download and Install** downloads the installer for your system and opens it; nothing is installed without you.
+
+## Support 4DJ
+
+4DJ is free and built in spare time. If it helps you, you can support its development with **[GitHub Sponsors](https://github.com/sponsors/kikoz85)** (the **Sponsor** button is also at the top of this page and in the app, under **Settings → Interface → Global** and **About**) or from the [Support](https://www.enricofanucchi.com/en/support?utm_source=github&utm_campaign=4dj) page of the website. Donations pay for signed installers, so macOS and Windows stop asking for confirmation on first launch, and for the time to build the next versions. A ⭐ on the repository helps too.
 
 ## Questions
 

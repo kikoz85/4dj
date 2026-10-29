@@ -9,6 +9,11 @@
   <a href="README.md">English</a> · <b>Italiano</b> · <a href="https://github.com/kikoz85/4dj/releases/latest"><b>Scarica</b></a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/kikoz85/4dj/releases/latest"><img src="https://img.shields.io/github/v/release/kikoz85/4dj?label=download&color=D4A64A" alt="Download"></a>
+  <a href="https://github.com/sponsors/kikoz85"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white" alt="Sostieni 4DJ su GitHub"></a>
+</p>
+
 ![4DJ: due deck in sync, il mixer, le unità FX e il browser](images/main.png)
 
 ![Lo stesso con l'aspetto Day](images/main-day.png)
@@ -24,6 +29,7 @@
 - [Kontrol S2 MK3](#kontrol-s2-mk3)
 - [Tastiera](#tastiera)
 - [Aggiornamenti](#aggiornamenti)
+- [Sostieni 4DJ](#sostieni-4dj)
 - [Domande](#domande)
 
 ## Scarica e installa
@@ -165,7 +171,11 @@ Su Windows e Linux ⌘ è Ctrl. In 4DJ premi **?** per l'elenco completo.
 
 ## Aggiornamenti
 
-4DJ cerca una nuova release una volta al giorno all'avvio e te lo dice quando ce n'è una. In **Impostazioni → Interface → Updates** puoi spegnere il controllo automatico, oppure usare **Check for Updates** quando vuoi. **Download and Install** scarica l'installer per il tuo sistema e lo apre: non viene installato nulla senza di te.
+4DJ cerca una nuova release a ogni avvio e ogni poche ore; quando ce n'è una, in alto compare **UPDATE** finché non la installi. In **Impostazioni → Interface → Updates** puoi spegnere il controllo automatico, oppure usare **Check for Updates** quando vuoi. **Download and Install** scarica l'installer per il tuo sistema e lo apre: non viene installato nulla senza di te.
+
+## Sostieni 4DJ
+
+4DJ è gratuito e sviluppato nel tempo libero. Se ti è utile, puoi sostenerne lo sviluppo con **[GitHub Sponsors](https://github.com/sponsors/kikoz85)** (il pulsante **Sponsor** è anche in cima a questa pagina e nell'app, in **Impostazioni → Interface → Global** e **About**) oppure dalla pagina [Sostienimi](https://www.enricofanucchi.com/it/sostienimi?utm_source=github&utm_campaign=4dj) del sito. Le donazioni pagano la firma degli installer, così macOS e Windows smettono di chiedere conferma al primo avvio, e il tempo per le prossime versioni. Anche una ⭐ al repository aiuta.
 
 ## Domande
 
