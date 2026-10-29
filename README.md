@@ -93,9 +93,12 @@ For every system:
 - **Timecode**: control vinyl or CDs (2 kHz or 1 kHz carrier) move the track (relative mode).
 - **MIDI clock** out to drum machines and other gear, or in to follow them.
 
-### Controllers and tablet
-- The **Kontrol S2 MK3** works natively: see below.
-- MIDI controllers are mapped automatically when known; any other is mapped with MIDI learn, or by holding a button and touching the control on screen.
+### Consoles and tablet
+- The **Kontrol S2 MK3** works natively: see below. The **Kontrol S2 MK1, S2 MK2, S3, S4 MK2 and S4 MK3** work natively too, in Beta: a two-minute check in **Settings → Consoles** confirms every control and light on your console, and corrects what differs.
+- **Pioneer DJ** controllers are ready as soon as they are plugged in: DDJ-FLX4, DDJ-400, DDJ-FLX6, DDJ-1000, DDJ-800, DDJ-GRV6, DDJ-REV1, DDJ-REV5, DDJ-REV7 and DDJ-200 (from Pioneer DJ's published MIDI messages).
+- **Any other console** is set up with a guided assistant: a drawing shows the control to touch, you touch it on the console; the right deck is found from the left one, then the lights. Nothing to type.
+- **Import Mapping (.tsi)**: a console mapping made in another DJ app works in 4DJ, controls and lights.
+- **Test Console** records what a console sends and saves a report you can share if something does not work. Fine-tuning by hand stays in **Advanced Mapping**.
 - **RemoteDeck**: a tablet or phone on the same network becomes a second screen and a touch surface (waveforms, hotcues, loops, XY pad for effects).
 
 ### Look and settings
@@ -114,6 +117,8 @@ For every system:
 | **StemX**: deck B as drums, bass, other and vocals. | **Loop Recorder** and **Audio Recorder** in the FX slots, switched with their tabs. |
 | ![Mixer FX](images/settings-mixer-fx.png) | ![Effects](images/settings-effects.png) |
 | **Mixer FX**: the effects of the S2 MK3's FX SELECT buttons. | **Effects**: routing and the effects offered in the menus. |
+| ![Consoles](images/settings-consoles.png) | ![Console setup](images/console-setup.png) |
+| **Consoles**: what is plugged in and whether it is ready, mapping import, test. | **Console setup**: touch the control the drawing shows. |
 | ![Input Routing](images/settings-input-routing.png) | ![Timecode](images/settings-timecode.png) |
 | **Input Routing**: microphone and aux with live meters, talkover. | **Timecode**: each deck plays its track, a timecode record or its input. |
 | ![Mix Recorder](images/settings-mix-recorder.png) | ![Analysis](images/settings-analysis.png) |

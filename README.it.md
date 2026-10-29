@@ -93,9 +93,12 @@ Per tutti i sistemi:
 - **Timecode**: vinili o CD di controllo (portante a 2 kHz o 1 kHz) muovono la traccia (modalità relativa).
 - **MIDI clock** in uscita verso drum machine e altri strumenti, o in ingresso per seguirli.
 
-### Controller e tablet
-- La **Kontrol S2 MK3** funziona in modo nativo: vedi sotto.
-- I controller MIDI conosciuti si mappano da soli; tutti gli altri con il MIDI learn, oppure tenendo premuto un tasto e toccando il controllo sullo schermo.
+### Console e tablet
+- La **Kontrol S2 MK3** funziona in modo nativo: vedi sotto. Anche **Kontrol S2 MK1, S2 MK2, S3, S4 MK2 e S4 MK3** funzionano in modo nativo, in Beta: una verifica di due minuti in **Impostazioni → Console** conferma ogni controllo e luce sulla tua console e corregge ciò che è diverso.
+- Le console **Pioneer DJ** sono pronte appena collegate: DDJ-FLX4, DDJ-400, DDJ-FLX6, DDJ-1000, DDJ-800, DDJ-GRV6, DDJ-REV1, DDJ-REV5, DDJ-REV7 e DDJ-200 (dai messaggi MIDI pubblicati da Pioneer DJ).
+- **Qualsiasi altra console** si configura con una procedura guidata: un disegno mostra il controllo da toccare, tu lo tocchi sulla console; il deck destro si ricava dal sinistro, poi le luci. Niente da scrivere.
+- **Importa mappatura (.tsi)**: una mappatura fatta in un'altra app DJ funziona in 4DJ, controlli e luci.
+- **Prova console** registra cosa invia una console e salva un rapporto da condividere se qualcosa non va. La regolazione a mano resta in **Advanced Mapping**.
 - **RemoteDeck**: un tablet o un telefono sulla stessa rete diventa un secondo schermo e una superficie touch (waveform, hotcue, loop, XY pad per gli effetti).
 
 ### Aspetto e impostazioni
@@ -114,6 +117,8 @@ Per tutti i sistemi:
 | **StemX**: il deck B come batteria, basso, altro e voce. | **Loop Recorder** e **Audio Recorder** negli spazi FX, si cambiano con le loro tab. |
 | ![Mixer FX](images/settings-mixer-fx.png) | ![Effects](images/settings-effects.png) |
 | **Mixer FX**: gli effetti dei tasti FX SELECT della S2 MK3. | **Effects**: routing e gli effetti offerti nei menu. |
+| ![Console](images/settings-consoles.png) | ![Configurazione console](images/console-setup.png) |
+| **Console**: cosa è collegato e se è pronto, importazione, prova. | **Configurazione console**: tocca il controllo che il disegno indica. |
 | ![Input Routing](images/settings-input-routing.png) | ![Timecode](images/settings-timecode.png) |
 | **Input Routing**: microfono e aux con i meter, talkover. | **Timecode**: ogni deck suona la sua traccia, un vinile timecode o il suo ingresso. |
 | ![Mix Recorder](images/settings-mix-recorder.png) | ![Analysis](images/settings-analysis.png) |
