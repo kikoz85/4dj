@@ -5,7 +5,7 @@
 <h1 align="center">4DJ</h1>
 
 <p align="center">
-  Software per DJ per macOS, Windows, Linux e Android<br>
+  Software per DJ per macOS, Windows e Linux (Android in arrivo)<br>
   <a href="README.md">English</a> · <b>Italiano</b> · <a href="https://github.com/kikoz85/4dj/releases/latest"><b>Scarica</b></a>
 </p>
 
@@ -37,7 +37,6 @@ Scarica l'installer per il tuo sistema dall'[ultima release](https://github.com/
 | Linux x64 o ARM64: Debian, Ubuntu, Mint… | `4dj_<versione>_amd64.deb` o `_arm64.deb` | Aprilo con il programma di installazione, oppure `sudo apt install ./4dj_<versione>_amd64.deb` (`_arm64.deb` su ARM). |
 | Linux x64 o ARM64: Fedora, openSUSE… | `4dj-<versione>-1.x86_64.rpm` o `.aarch64.rpm` | Aprilo con il programma di installazione, oppure `sudo dnf install ./4dj-<versione>-1.x86_64.rpm` (`.aarch64.rpm` su ARM). |
 | Linux x64 o ARM64: qualsiasi distribuzione | `4DJ-<versione>-linux-x86_64.AppImage` o `-aarch64.AppImage` | Rendilo eseguibile (Proprietà → Consenti l'esecuzione) e aprilo. |
-| Android 10 o successivo, tablet e telefoni | `4DJ-<versione>-android.apk` | Apri l'APK sul dispositivo e consenti l'installazione da quella fonte. |
 
 Al primo avvio il **Setup Assistant** chiede tre cose: la scheda audio, le cartelle della tua musica e quanti deck vuoi. Vieni da un'altra app per DJ? **Import collection (.nml)** nel browser porta le tue tracce con BPM, tonalità, beatgrid, hotcue, valutazioni e playlist. Il file della collezione viene solo letto, mai modificato.
 
@@ -48,7 +47,6 @@ Al primo avvio il **Setup Assistant** chiede tre cose: la scheda audio, le carte
 | **macOS** | macOS 13.4, Intel o Apple Silicon, 8 GB di RAM | Apple Silicon (M1 o successivo), 16 GB di RAM |
 | **Windows** | Windows 10 a 64 bit (x64 o ARM64), CPU dual-core, 8 GB di RAM | Windows 11, CPU quad-core (Intel Core i5 di 8ª generazione / Ryzen 5 o superiore), 16 GB di RAM |
 | **Linux** | 64 bit (x64 o ARM64) con glibc 2.35: Ubuntu 22.04, Debian 12, Fedora 36 o successivi; GTK 3, PipeWire o ALSA; CPU quad-core, 8 GB di RAM | Ubuntu 24.04, Debian 13, Fedora 39 o successivi (necessari per StemX); PipeWire; 16 GB di RAM |
-| **Android** | Android 10, 4 GB di RAM | Dispositivo a 64 bit con 8 GB di RAM (StemX) |
 
 Per tutti i sistemi:
 
@@ -63,6 +61,7 @@ Per tutti i sistemi:
 - 2 o 4 deck. Play, CUE (tenuto: anteprima, come un CDJ), 8 hotcue per traccia, loop da 1/2 a 32 battute, beatjump, Slip mode e reverse.
 - Tempo fader con key lock, manopola KEY per ±12 semitoni, e SYNC (Beat Sync o Tempo Sync).
 - Scratch e nudge trascinando la waveform. Waveform a colori con zoom, overview, segni di cue e loop, e avviso prima della fine della traccia.
+- Un **phase meter** sopra ogni waveform mostra quanto le battute sono lontane da quelle dell'altro deck: mixando a mano, tieni la barra al centro (diventa verde quando sono a tempo).
 
 ### StemX: stem sul tuo computer
 - Divide qualsiasi traccia in **batteria, basso, altro e voce**, senza mandare nulla online.
@@ -75,6 +74,7 @@ Per tutti i sistemi:
 
 ### Mixer ed effetti
 - EQ a tre bande e filtro in stile club. Crossfader con curva, auto crossfade, cue mix in cuffia.
+- **Secondo dispositivo**: il master (o le cuffie) può suonare anche su un altro dispositivo audio, ad esempio il master su una cassa Bluetooth mentre le cuffie restano sulla console (Impostazioni → Audio → Output Routing).
 - Due unità FX con 19 effetti (delay, riverberi, flanger, phaser, gater, beatmasher e altri), Insert o Post Fader.
 - Mixer FX: la manopola del filtro può diventare un effetto. Il **Maximizer** alza il volume del master senza distorcere.
 
@@ -103,6 +103,7 @@ Per tutti i sistemi:
 - Sui portatili la barra in alto mostra la **batteria**, così durante un set senza corrente sai sempre quanta ne resta.
 - I knob mostrano il valore in percentuale mentre si muovono.
 - Una schermata di caricamento mostra la versione e ogni parte di 4DJ mentre si carica.
+- **Android** (in arrivo): layout per telefono e tablet per fare un set intero dal dispositivo, con la Kontrol S2 MK3 via USB.
 - Impostazioni complete, con **Export / Import** di tutte le impostazioni e **Reset to Defaults**.
 
 ## Screenshot

@@ -5,7 +5,7 @@
 <h1 align="center">4DJ</h1>
 
 <p align="center">
-  DJ software for macOS, Windows, Linux and Android<br>
+  DJ software for macOS, Windows and Linux (Android coming)<br>
   <b>English</b> · <a href="README.it.md">Italiano</a> · <a href="https://github.com/kikoz85/4dj/releases/latest"><b>Download</b></a>
 </p>
 
@@ -37,7 +37,6 @@ Download the installer for your system from the [latest release](https://github.
 | Linux x64 or ARM64: Debian, Ubuntu, Mint… | `4dj_<version>_amd64.deb` or `_arm64.deb` | Open it with your software installer, or `sudo apt install ./4dj_<version>_amd64.deb` (`_arm64.deb` on ARM). |
 | Linux x64 or ARM64: Fedora, openSUSE… | `4dj-<version>-1.x86_64.rpm` or `.aarch64.rpm` | Open it with your software installer, or `sudo dnf install ./4dj-<version>-1.x86_64.rpm` (`.aarch64.rpm` on ARM). |
 | Linux x64 or ARM64: any distribution | `4DJ-<version>-linux-x86_64.AppImage` or `-aarch64.AppImage` | Make it executable (Properties → Allow executing) and open it. |
-| Android 10 or later, tablets and phones | `4DJ-<version>-android.apk` | Open the APK on the device and allow installing from that source. |
 
 On first start the **Setup Assistant** asks for three things: the sound card, your music folders and how many decks you want. Coming from another DJ app? **Import collection (.nml)** in the browser brings in your tracks with their BPM, keys, beatgrids, hotcues, ratings and playlists. The collection file is only read, never changed.
 
@@ -48,7 +47,6 @@ On first start the **Setup Assistant** asks for three things: the sound card, yo
 | **macOS** | macOS 13.4, Intel or Apple Silicon, 8 GB RAM | Apple Silicon (M1 or later), 16 GB RAM |
 | **Windows** | Windows 10 64-bit (x64 or ARM64), dual-core CPU, 8 GB RAM | Windows 11, quad-core CPU (Intel Core i5 8th gen / Ryzen 5 or better), 16 GB RAM |
 | **Linux** | 64-bit (x64 or ARM64) with glibc 2.35: Ubuntu 22.04, Debian 12, Fedora 36 or later; GTK 3, PipeWire or ALSA; quad-core CPU, 8 GB RAM | Ubuntu 24.04, Debian 13, Fedora 39 or later (needed for StemX); PipeWire; 16 GB RAM |
-| **Android** | Android 10, 4 GB RAM | 64-bit device with 8 GB RAM (StemX) |
 
 For every system:
 
@@ -63,6 +61,7 @@ For every system:
 - 2 or 4 decks. Play, CUE (hold to preview, like a CDJ), 8 hotcues per track, loops from 1/2 to 32 beats, beatjump, Slip mode and reverse.
 - Tempo fader with key lock, a KEY knob for ±12 semitones, and SYNC (Beat Sync or Tempo Sync).
 - Scratch and nudge by dragging the waveform. Colour waveforms with zoom, overview, cue and loop markers, and a warning before the end of the track.
+- A **phase meter** over each waveform shows how far the beats are from the other deck's: mixing by hand, keep the bar in the middle (it turns green when they are in time).
 
 ### StemX: stems on your computer
 - Splits any track into **drums, bass, other and vocals**, without sending anything online.
@@ -75,6 +74,7 @@ For every system:
 
 ### Mixer and effects
 - A club-style three-band EQ and filter. Crossfader with curve, auto crossfade, headphone cue mix.
+- **Second device**: the master (or the headphones) can play on another sound device at the same time, e.g. the master on a Bluetooth speaker while the headphones stay on the console (Settings → Audio → Output Routing).
 - Two FX units with 19 effects (delays, reverbs, flanger, phaser, gater, beatmasher and more), Insert or Post Fader.
 - Mixer FX: the filter knob can be an effect. A **Maximizer** makes the master louder without clipping.
 
@@ -103,6 +103,7 @@ For every system:
 - On a laptop the top bar shows the **battery**, so you always know how much is left during a set without mains power.
 - Knobs show their value in percent while they move.
 - A loading screen shows the version and each part of 4DJ as it loads.
+- **Android** (coming): phone and tablet layouts for a whole set from the device, with the Kontrol S2 MK3 over USB.
 - Complete settings, with **Export / Import** of all settings and **Reset to Defaults**.
 
 ## Screenshots
