@@ -113,6 +113,9 @@ For every system:
 - Knobs show their value in percent while they move.
 - A loading screen shows the version and each part of 4DJ as it loads.
 - **Android** (coming): phone and tablet layouts for a whole set from the device, with the Kontrol S2 MK3 over USB.
+- **Five languages**: English, Italiano, Français, Deutsch and Español. 4DJ starts in your system's language (English when it is another one) and you can change it in **Settings → Interface → Global**. The words DJs use everywhere (PLAY, CUE, SYNC, LOOP, FX…) stay the same in every language.
+- **Help** inside 4DJ (the **?** at the top right): every function explained, with search, in your language.
+- **A broken file never stops your set**: a damaged or non-audio file is refused, the deck flashes red with **CANNOT LOAD** and the file's name, and the music goes on.
 - Complete settings, with **Export / Import** of all settings and **Reset to Defaults**.
 
 ## Screenshots

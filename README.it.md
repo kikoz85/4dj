@@ -44,7 +44,7 @@ Scarica l'installer per il tuo sistema dall'[ultima release](https://github.com/
 | Linux x64 o ARM64: Fedora, openSUSE… | `4dj-<versione>-1.x86_64.rpm` o `.aarch64.rpm` | Aprilo con il programma di installazione, oppure `sudo dnf install ./4dj-<versione>-1.x86_64.rpm` (`.aarch64.rpm` su ARM). |
 | Linux x64 o ARM64: qualsiasi distribuzione | `4DJ-<versione>-linux-x86_64.AppImage` o `-aarch64.AppImage` | Rendilo eseguibile (Proprietà → Consenti l'esecuzione) e aprilo. |
 
-Al primo avvio il **Setup Assistant** chiede tre cose: la scheda audio, le cartelle della tua musica e quanti deck vuoi. Vieni da un'altra app per DJ? **Import collection (.nml)** nel browser porta le tue tracce con BPM, tonalità, beatgrid, hotcue, valutazioni e playlist. Il file della collezione viene solo letto, mai modificato.
+Al primo avvio l'**Assistente di configurazione** chiede tre cose: la scheda audio, le cartelle della tua musica e quanti deck vuoi. Vieni da un'altra app per DJ? **Importa collezione (.nml)** nel browser porta le tue tracce con BPM, tonalità, beatgrid, hotcue, valutazioni e playlist. Il file della collezione viene solo letto, mai modificato.
 
 ## Requisiti di sistema
 
@@ -80,7 +80,7 @@ Per tutti i sistemi:
 
 ### Mixer ed effetti
 - EQ a tre bande e filtro in stile club. Crossfader con curva, auto crossfade, cue mix in cuffia.
-- **Secondo dispositivo**: il master (o le cuffie) può suonare anche su un altro dispositivo audio, ad esempio il master su una cassa Bluetooth mentre le cuffie restano sulla console (Impostazioni → Audio → Output Routing).
+- **Secondo dispositivo**: il master (o le cuffie) può suonare anche su un altro dispositivo audio, ad esempio il master su una cassa Bluetooth mentre le cuffie restano sulla console (Impostazioni → Audio → Instradamento uscite).
 - Due unità FX con 19 effetti (delay, riverberi, flanger, phaser, gater, beatmasher e altri), Insert o Post Fader.
 - Mixer FX: la manopola del filtro può diventare un effetto. Il **Maximizer** alza il volume del master senza distorcere.
 
@@ -113,7 +113,10 @@ Per tutti i sistemi:
 - I knob mostrano il valore in percentuale mentre si muovono.
 - Una schermata di caricamento mostra la versione e ogni parte di 4DJ mentre si carica.
 - **Android** (in arrivo): layout per telefono e tablet per fare un set intero dal dispositivo, con la Kontrol S2 MK3 via USB.
-- Impostazioni complete, con **Export / Import** di tutte le impostazioni e **Reset to Defaults**.
+- **Cinque lingue**: English, Italiano, Français, Deutsch ed Español. 4DJ parte nella lingua del sistema (in inglese se è un'altra) e puoi cambiarla in **Impostazioni → Interfaccia → Generale**. Le parole che i DJ usano ovunque (PLAY, CUE, SYNC, LOOP, FX…) restano uguali in ogni lingua.
+- **Aiuto** dentro 4DJ (il **?** in alto a destra): ogni funzione spiegata, con la ricerca, nella tua lingua.
+- **Un file rotto non ferma mai il set**: un file danneggiato o non audio viene rifiutato, il deck lampeggia di rosso con **CANNOT LOAD** e il nome del file, e la musica continua.
+- Impostazioni complete, con **Esporta / Importa** di tutte le impostazioni e **Ripristina predefiniti**.
 
 ## Screenshot
 
@@ -171,23 +174,23 @@ Su Windows e Linux ⌘ è Ctrl. In 4DJ premi **?** per l'elenco completo.
 
 ## Aggiornamenti
 
-4DJ cerca una nuova release a ogni avvio e ogni poche ore; quando ce n'è una, in alto compare **UPDATE** finché non la installi. In **Impostazioni → Interface → Updates** puoi spegnere il controllo automatico, oppure usare **Check for Updates** quando vuoi. **Download and Install** scarica l'installer per il tuo sistema e lo apre: non viene installato nulla senza di te.
+4DJ cerca una nuova release a ogni avvio e ogni poche ore; quando ce n'è una, in alto compare **UPDATE** finché non la installi. In **Impostazioni → Interfaccia → Aggiornamenti** puoi spegnere il controllo automatico, oppure usare **Cerca aggiornamenti** quando vuoi. **Scarica e installa** scarica l'installer per il tuo sistema e lo apre: non viene installato nulla senza di te.
 
 ## Sostieni 4DJ
 
-4DJ è gratuito e sviluppato nel tempo libero. Se ti è utile, puoi sostenerne lo sviluppo con **[GitHub Sponsors](https://github.com/sponsors/kikoz85)** (il pulsante **Sponsor** è anche in cima a questa pagina e nell'app, in **Impostazioni → Interface → Global** e **About**) oppure dalla pagina [Sostienimi](https://www.enricofanucchi.com/it/sostienimi?utm_source=github&utm_campaign=4dj) del sito. Le donazioni pagano la firma degli installer, così macOS e Windows smettono di chiedere conferma al primo avvio, e il tempo per le prossime versioni. Anche una ⭐ al repository aiuta.
+4DJ è gratuito e sviluppato nel tempo libero. Se ti è utile, puoi sostenerne lo sviluppo con **[GitHub Sponsors](https://github.com/sponsors/kikoz85)** (il pulsante **Sponsor** è anche in cima a questa pagina e nell'app, in **Impostazioni → Interfaccia → Generale** e **Info**) oppure dalla pagina [Sostienimi](https://www.enricofanucchi.com/it/sostienimi?utm_source=github&utm_campaign=4dj) del sito. Le donazioni pagano la firma degli installer, così macOS e Windows smettono di chiedere conferma al primo avvio, e il tempo per le prossime versioni. Anche una ⭐ al repository aiuta.
 
 ## Domande
 
-**Dove sono le mie impostazioni?** In 4DJ. **Impostazioni → Export…** le salva in un file, per un backup o un altro computer; **Import…** le riporta.
+**Dove sono le mie impostazioni?** In 4DJ. **Impostazioni → Esporta…** le salva in un file, per un backup o un altro computer; **Importa…** le riporta.
 
 **4DJ modifica i miei file musicali?** No. BPM, tonalità, griglie, cue e valutazioni restano nella libreria di 4DJ.
 
-**Su Windows, perché le altre app non suonano sulla scheda della console?** Per la latenza più bassa 4DJ prende la scheda della Kontrol S2 MK3 tutta per sé (modalità esclusiva). Le altre app tornano a suonare quando chiudi 4DJ; in **Impostazioni → Audio → Devices** puoi spegnere la modalità esclusiva (latenza più alta).
+**Su Windows, perché le altre app non suonano sulla scheda della console?** Per la latenza più bassa 4DJ prende la scheda della Kontrol S2 MK3 tutta per sé (modalità esclusiva). Le altre app tornano a suonare quando chiudi 4DJ; in **Impostazioni → Audio → Dispositivi** puoi spegnere la modalità esclusiva (latenza più alta).
 
-**Dove sono le mie registrazioni?** In Musica/4DJ Recordings, o nella cartella scelta in **Impostazioni → Recording → Mix Recorder**.
+**Dove sono le mie registrazioni?** In Musica/4DJ Recordings, o nella cartella scelta in **Impostazioni → Registrazione → Mix Recorder**.
 
-**Posso portare la collezione da un'altra app per DJ?** Sì, da un file collection.nml: **Import collection (.nml)** nel browser. Il file viene solo letto, mai modificato.
+**Posso portare la collezione da un'altra app per DJ?** Sì, da un file collection.nml: **Importa collezione (.nml)** nel browser. Il file viene solo letto, mai modificato.
 
 ---
 
