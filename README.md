@@ -44,7 +44,7 @@ Download the installer for your system from the [latest release](https://github.
 | Linux x64 or ARM64: Fedora, openSUSE… | `4dj-<version>-1.x86_64.rpm` or `.aarch64.rpm` | Open it with your software installer, or `sudo dnf install ./4dj-<version>-1.x86_64.rpm` (`.aarch64.rpm` on ARM). |
 | Linux x64 or ARM64: any distribution | `4DJ-<version>-linux-x86_64.AppImage` or `-aarch64.AppImage` | Make it executable (Properties → Allow executing) and open it. |
 
-On first start the **Setup Assistant** asks for three things: the sound card, your music folders and how many decks you want. Coming from another DJ app? **Import collection (.nml)** in the browser brings in your tracks with their BPM, keys, beatgrids, hotcues, ratings and playlists. The collection file is only read, never changed.
+On first start the **Setup Assistant** asks for three things: the sound card, your music folders and how many decks you want. Coming from another DJ app? **Import collection…** in the browser (rekordbox, Serato, VirtualDJ or collection.nml) brings in your tracks with their BPM, keys, beatgrids, hotcues, ratings and playlists. The files are only read, never changed.
 
 ## System requirements
 
@@ -87,7 +87,14 @@ For every system:
 ### Library and browser
 - Track Collection, playlists, History, music folders and an **Explorer** for every folder and drive of your computer.
 - Instant search, sorting, ratings, multiple selection, keys in Camelot, Open Key or musical notation, coloured by how they mix.
+- **Smart Playlists** fill themselves from rules: BPM 124–128, Key 8A or the keys that mix with it, 4 stars or more, genre, added in the last 30 days, never played… with a live count while you edit.
+- **Import collection…** brings your collection from **rekordbox** (XML export: File > Export Collection in xml format; rekordbox's own database is encrypted), **Serato** (the `_Serato_` folders in Music and on drives: crates, plus hotcues, loops and beatgrids from the files), **VirtualDJ** (database.xml and its playlists) and **collection.nml** files. Files are only read; tracks already in 4DJ are updated, not duplicated; playlists go in a folder named after the app.
 - Your audio files are never modified.
+
+### Safe sets
+- **After an unexpected close** (a crash, a power cut) the decks come back with the same tracks, at the same place, with their loops, tempo and key lock, paused: press PLAY when you are ready.
+- **Check Tracks…** on a playlist or the whole collection finds, before the gig, the tracks that are missing, cannot be read or are not analyzed, and fixes them: find moved files, analyze now, remove from the playlist.
+- **Moved files are found again**: a track moved to another folder, or a drive that comes back with another letter or name, is found by itself (also when you load it on a deck); cues, beatgrid, rating and playlists stay with it.
 
 ### Recording, microphone and loops
 - **Audio Recorder** with gain, level meter and CUT, to 24-bit WAV. Records the master or an external input.
@@ -190,7 +197,7 @@ On Windows and Linux, ⌘ is Ctrl. Press **?** in 4DJ for the full list.
 
 **Where are my recordings?** In Music/4DJ Recordings, or the folder chosen in **Settings → Recording → Mix Recorder**.
 
-**Can I bring my collection from another DJ app?** Yes, from a collection.nml file: **Import collection (.nml)** in the browser. The file is only read, never changed.
+**Can I bring my collection from another DJ app?** Yes: **Import collection…** in the browser reads rekordbox (XML export), Serato, VirtualDJ and collection.nml files, with BPM, keys, beatgrids, hotcues, ratings and playlists. The files are only read, never changed.
 
 ---
 

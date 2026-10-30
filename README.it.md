@@ -44,7 +44,7 @@ Scarica l'installer per il tuo sistema dall'[ultima release](https://github.com/
 | Linux x64 o ARM64: Fedora, openSUSE… | `4dj-<versione>-1.x86_64.rpm` o `.aarch64.rpm` | Aprilo con il programma di installazione, oppure `sudo dnf install ./4dj-<versione>-1.x86_64.rpm` (`.aarch64.rpm` su ARM). |
 | Linux x64 o ARM64: qualsiasi distribuzione | `4DJ-<versione>-linux-x86_64.AppImage` o `-aarch64.AppImage` | Rendilo eseguibile (Proprietà → Consenti l'esecuzione) e aprilo. |
 
-Al primo avvio l'**Assistente di configurazione** chiede tre cose: la scheda audio, le cartelle della tua musica e quanti deck vuoi. Vieni da un'altra app per DJ? **Importa collezione (.nml)** nel browser porta le tue tracce con BPM, tonalità, beatgrid, hotcue, valutazioni e playlist. Il file della collezione viene solo letto, mai modificato.
+Al primo avvio l'**Assistente di configurazione** chiede tre cose: la scheda audio, le cartelle della tua musica e quanti deck vuoi. Vieni da un'altra app per DJ? **Importa collezione…** nel browser (rekordbox, Serato, VirtualDJ o collection.nml) porta le tue tracce con BPM, tonalità, beatgrid, hotcue, valutazioni e playlist. I file vengono solo letti, mai modificati.
 
 ## Requisiti di sistema
 
@@ -87,7 +87,14 @@ Per tutti i sistemi:
 ### Libreria e browser
 - Track Collection, playlist, History, cartelle di musica e un **Explorer** per tutte le cartelle e i dischi del computer.
 - Ricerca istantanea, ordinamento, valutazioni, selezione multipla, tonalità in Camelot, Open Key o notazione musicale, colorate in base a quanto si mixano.
+- Le **Smart Playlist** si riempiono da sole seguendo delle regole: BPM 124–128, Key 8A o le key che si mixano con essa, 4 stelle o più, genere, aggiunti negli ultimi 30 giorni, mai suonati… con il conteggio dei brani che si aggiorna mentre le scrivi.
+- **Importa collezione…** porta la tua collezione da **rekordbox** (esportazione XML: File > Esporta collezione in formato xml; il database di rekordbox è cifrato), **Serato** (le cartelle `_Serato_` in Musica e sui dischi: crate, più hotcue, loop e beatgrid dai file), **VirtualDJ** (database.xml e le sue playlist) e dai file **collection.nml**. I file vengono solo letti; i brani già presenti in 4DJ vengono aggiornati, non duplicati; le playlist finiscono in una cartella con il nome dell'app.
 - I tuoi file audio non vengono mai modificati.
+
+### Set sicuri
+- **Dopo una chiusura imprevista** (un crash, un'interruzione di corrente) i deck tornano con gli stessi brani, nello stesso punto, con i loro loop, il tempo e il key lock, in pausa: premi PLAY quando sei pronto.
+- **Controlla tracce…** su una playlist o sull'intera collezione trova prima della serata i brani mancanti, illeggibili o non analizzati, e li sistema: trova i file spostati, analizza ora, rimuovi dalla playlist.
+- **I file spostati vengono ritrovati**: un brano spostato in un'altra cartella, o un disco che torna con un'altra lettera o un altro nome, viene ritrovato da solo (anche quando lo carichi su un deck); cue, beatgrid, valutazione e playlist restano con il brano.
 
 ### Registrazione, microfono e loop
 - **Audio Recorder** con gain, meter e CUT, in WAV a 24 bit. Registra il master o un ingresso esterno.
@@ -190,7 +197,7 @@ Su Windows e Linux ⌘ è Ctrl. In 4DJ premi **?** per l'elenco completo.
 
 **Dove sono le mie registrazioni?** In Musica/4DJ Recordings, o nella cartella scelta in **Impostazioni → Registrazione → Mix Recorder**.
 
-**Posso portare la collezione da un'altra app per DJ?** Sì, da un file collection.nml: **Importa collezione (.nml)** nel browser. Il file viene solo letto, mai modificato.
+**Posso portare la collezione da un'altra app per DJ?** Sì: **Importa collezione…** nel browser legge rekordbox (esportazione XML), Serato, VirtualDJ e i file collection.nml, con BPM, tonalità, beatgrid, hotcue, valutazioni e playlist. I file vengono solo letti, mai modificati.
 
 ---
 
