@@ -39,7 +39,7 @@ Scarica l'installer per il tuo sistema dall'[ultima release](https://github.com/
 
 | Sistema | File | Installazione |
 |---|---|---|
-| macOS 13.4 o successivo (Apple Silicon e Intel) | `4DJ-<versione>-macOS.dmg` | Apri il DMG e trascina 4DJ in Applicazioni. La prima volta macOS può dire che non riesce a verificare l'app: apri **Impostazioni di Sistema → Privacy e sicurezza** e scegli **Apri comunque**. |
+| macOS 13.4 o successivo (Apple Silicon e Intel) | `4DJ-<versione>-macOS.dmg` | Apri il DMG e trascina 4DJ in Applicazioni. L'app è firmata e notarizzata da Apple: si apre come tutte le altre. |
 | Windows 10/11, x64 o ARM64 | `4DJ-<versione>-windows-x64.msi` o `-arm64.msi` | Avvia l'MSI. Se SmartScreen lo blocca, scegli **Ulteriori informazioni → Esegui comunque**. |
 | Linux x64 o ARM64: Debian, Ubuntu, Mint… | `4dj_<versione>_amd64.deb` o `_arm64.deb` | Aprilo con il programma di installazione, oppure `sudo apt install ./4dj_<versione>_amd64.deb` (`_arm64.deb` su ARM). |
 | Linux x64 o ARM64: Fedora, openSUSE… | `4dj-<versione>-1.x86_64.rpm` o `.aarch64.rpm` | Aprilo con il programma di installazione, oppure `sudo dnf install ./4dj-<versione>-1.x86_64.rpm` (`.aarch64.rpm` su ARM). |
@@ -186,7 +186,7 @@ Su Windows e Linux ⌘ è Ctrl. In 4DJ premi **?** per l'elenco completo.
 
 ## Sostieni 4DJ
 
-4DJ è gratuito e sviluppato nel tempo libero. Se ti è utile, puoi sostenerne lo sviluppo con **[GitHub Sponsors](https://github.com/sponsors/kikoz85)** (il pulsante **Sponsor** è anche in cima a questa pagina e nell'app, in **Impostazioni → Interfaccia → Generale** e **Info**) oppure dalla pagina [Sostienimi](https://www.enricofanucchi.com/it/sostienimi?utm_source=github&utm_campaign=4dj) del sito. Le donazioni pagano la firma degli installer, così macOS e Windows smettono di chiedere conferma al primo avvio, e il tempo per le prossime versioni. Anche una ⭐ al repository aiuta.
+4DJ è gratuito e sviluppato nel tempo libero. Se ti è utile, puoi sostenerne lo sviluppo con **[GitHub Sponsors](https://github.com/sponsors/kikoz85)** (il pulsante **Sponsor** è anche in cima a questa pagina e nell'app, in **Impostazioni → Interfaccia → Generale** e **Info**) oppure dalla pagina [Sostienimi](https://www.enricofanucchi.com/it/sostienimi?utm_source=github&utm_campaign=4dj) del sito. Le donazioni hanno pagato la firma dell'app per macOS e pagheranno quella dell'installer per Windows, così anche Windows smetterà di chiedere conferma al primo avvio, e il tempo per le prossime versioni. Anche una ⭐ al repository aiuta.
 
 ## Domande
 
