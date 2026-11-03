@@ -109,7 +109,18 @@ For every system:
 
 ### Consoles and tablet
 - The **Kontrol S2 MK3** works natively: see below. The **Kontrol S2 MK1, S2 MK2, S3, S4 MK2 and S4 MK3** work natively too, in Beta: a two-minute check in **Settings → Consoles** confirms every control and light on your console, and corrects what differs.
-- **Pioneer DJ** controllers are ready as soon as they are plugged in: DDJ-FLX4, DDJ-400, DDJ-FLX6, DDJ-1000, DDJ-800, DDJ-GRV6, DDJ-REV1, DDJ-REV5, DDJ-REV7 and DDJ-200 (from Pioneer DJ's published MIDI messages).
+- **More than 110 MIDI consoles** are recognised as soon as they are plugged in and work at once, controls and lights. Each one is in Beta until you check it: a two-minute check in **Settings → Consoles** confirms every control and light and corrects what differs; then it is no longer Beta.
+  - **Pioneer DJ**: DDJ-200, DDJ-400, DDJ-800, DDJ-1000, DDJ-FLX2, DDJ-FLX4, DDJ-FLX6, DDJ-FLX10, DDJ-GRV6, DDJ-REV1, DDJ-REV5, DDJ-REV7, DDJ-RB, DDJ-RR, DDJ-RZ, DDJ-RZX, DDJ-SB, DDJ-SB2, DDJ-SB3, DDJ-SX, DDJ-SX3, DDJ-SZ
+  - **Hercules**: DJControl Inpulse 200, 300 and 500, Starlight, Compact, MIX, Jogvision, Instinct, AIR, MP3, MP3 e2 / MP3 LE / Glow, Steel; DJ Console RMX, RMX2, Mk2, Mk4, 4-Mx
+  - **Numark**: Mixtrack, Mixtrack Pro, Mixtrack (Pro) II, Mixtrack (Pro) 3, Mixtrack Platinum, Mixtrack Platinum FX, Mixtrack Pro FX, Party Mix, DJ2Go, DJ2GO2 Touch, NS4FX, NS6II, NS7, N4, Mixstream Pro, Omni Control, Total Control, iDJ Live II
+  - **Denon DJ**: MC3000, MC4000, MC6000MK2, MC7000
+  - **Reloop**: Mixage, Beatmix 2/4 MK2, Terminal Mix 2/4, Beatpad, Jockey 3 Master Edition, Digital Jockey 2
+  - **Behringer**: CMD STUDIO 4a, CMD Micro, CMD MM-1, BCD2000, BCD3000
+  - **Vestax**: VCI-100, VCI-100MKII, VCI-300, VCI-400, Typhoon, Spin
+  - **Korg**: KAOSS DJ, nanoKONTROL2, nanoPAD2 · **Novation**: Launchpad MK2, Launchpad Mini MK3 · **Akai**: LPD8 · **Allen & Heath**: Xone:K2 · **DJ TechTools**: MIDI Fighter Twister, MIDI Fighter Spectra
+  - **Others**: Roland DJ-505, Stanton DJC.4, ION Discover DJ and Discover DJ Pro, MixVibes U-Mix Control 2 and Pro 2, Gemini FirstMix, DJ-Tech i-Mix Reload, DJ-Tech DJM-101 and Mixer One, Kontrol DJ KDJ500, M-Audio X-Session Pro, Evolution X-Session, Faderfox DJ2, M-Vave SMC-Mixer
+- **CD and media players** work too, one deck each: the first one plugged in is deck A, the next deck B (Pioneer DJ CDJ-350, CDJ-850 and CDJ-2000, Denon DJ DN-SC2000 and DN-HS5500, Gemini CDMP-7000, American Audio Radius 2000, DJ-Tech CDJ-101).
+- The **Kontrol Z1** mixer and the **Kontrol F1** work natively too (macOS, Windows, Linux, Android), in Beta.
 - **Any other console** is set up with a guided assistant: a drawing shows the control to touch, you touch it on the console; the right deck is found from the left one, then the lights. Nothing to type.
 - **Import Mapping (.tsi)**: a console mapping made in another DJ app works in 4DJ, controls and lights.
 - **Test Console** records what a console sends and saves a report you can share if something does not work. Fine-tuning by hand stays in **Advanced Mapping**.
