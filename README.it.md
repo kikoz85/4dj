@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/kikoz85/4dj/releases/latest"><img src="https://img.shields.io/github/v/release/kikoz85/4dj?label=download&color=D4A64A" alt="Download"></a>
+  <a href="https://apps.microsoft.com/detail/9P5BWS6LM4BB"><img src="https://img.shields.io/badge/Microsoft%20Store-scarica-0078D4?logo=microsoft&logoColor=white" alt="Scarica dal Microsoft Store"></a>
   <a href="https://www.enricofanucchi.com/it/app/4dj?utm_source=github&utm_campaign=4dj"><img src="https://img.shields.io/badge/website-enricofanucchi.com-F7941D" alt="Sito"></a>
   <a href="https://github.com/sponsors/kikoz85"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white" alt="Sostieni 4DJ su GitHub"></a>
 </p>
@@ -40,6 +41,7 @@ Scarica l'installer per il tuo sistema dall'[ultima release](https://github.com/
 | Sistema | File | Installazione |
 |---|---|---|
 | macOS 13.4 o successivo (Apple Silicon e Intel) | `4DJ-<versione>-macOS.dmg` | Apri il DMG e trascina 4DJ in Applicazioni. L'app è firmata e notarizzata da Apple: si apre come tutte le altre. |
+| Windows 10/11, x64 o ARM64 | [Microsoft Store](https://apps.microsoft.com/detail/9P5BWS6LM4BB) | Installa **4DJ - DJ Mixer** dallo Store: nessun avviso, e lo Store lo tiene aggiornato. |
 | Windows 10/11, x64 o ARM64 | `4DJ-<versione>-windows-x64.msi` o `-arm64.msi` | Avvia l'MSI. Se SmartScreen lo blocca, scegli **Ulteriori informazioni → Esegui comunque**. |
 | Linux x64 o ARM64: Debian, Ubuntu, Mint… | `4dj_<versione>_amd64.deb` o `_arm64.deb` | Aprilo con il programma di installazione, oppure `sudo apt install ./4dj_<versione>_amd64.deb` (`_arm64.deb` su ARM). |
 | Linux x64 o ARM64: Fedora, openSUSE… | `4dj-<versione>-1.x86_64.rpm` o `.aarch64.rpm` | Aprilo con il programma di installazione, oppure `sudo dnf install ./4dj-<versione>-1.x86_64.rpm` (`.aarch64.rpm` su ARM). |
@@ -193,7 +195,7 @@ Su Windows e Linux ⌘ è Ctrl. In 4DJ premi **?** per l'elenco completo.
 
 ## Aggiornamenti
 
-4DJ cerca una nuova release a ogni avvio e ogni poche ore; quando ce n'è una, in alto compare **UPDATE** finché non la installi. In **Impostazioni → Interfaccia → Aggiornamenti** puoi spegnere il controllo automatico, oppure usare **Cerca aggiornamenti** quando vuoi. **Scarica e installa** scarica l'installer per il tuo sistema e lo apre: non viene installato nulla senza di te.
+4DJ cerca una nuova release a ogni avvio e ogni poche ore; quando ce n'è una, in alto compare **UPDATE** finché non la installi. In **Impostazioni → Interfaccia → Aggiornamenti** puoi spegnere il controllo automatico, oppure usare **Cerca aggiornamenti** quando vuoi. **Scarica e installa** scarica l'installer per il tuo sistema e lo apre: non viene installato nulla senza di te. Se hai installato 4DJ dal Microsoft Store, gli aggiornamenti arrivano dallo Store.
 
 ## Sostieni 4DJ
 
