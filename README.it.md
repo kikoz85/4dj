@@ -12,6 +12,7 @@
 <p align="center">
   <a href="https://github.com/kikoz85/4dj/releases/latest"><img src="https://img.shields.io/github/v/release/kikoz85/4dj?label=download&color=D4A64A" alt="Download"></a>
   <a href="https://apps.apple.com/app/4dj/id6830381237"><img src="https://img.shields.io/badge/App%20Store-iPhone%20%26%20iPad-0D96F6?logo=apple&logoColor=white" alt="Scarica dall'App Store"></a>
+  <a href="https://snapcraft.io/4dj-mixer"><img src="https://img.shields.io/badge/Snap%20Store-Linux-E95420?logo=snapcraft&logoColor=white" alt="Scarica dallo Snap Store"></a>
   <a href="https://apps.microsoft.com/detail/9P5BWS6LM4BB"><img src="https://img.shields.io/badge/Microsoft%20Store-scarica-0078D4?logo=microsoft&logoColor=white" alt="Scarica dal Microsoft Store"></a>
   <a href="https://www.enricofanucchi.com/it/app/4dj?utm_source=github&utm_campaign=4dj"><img src="https://img.shields.io/badge/website-enricofanucchi.com-F7941D" alt="Sito"></a>
   <a href="https://github.com/sponsors/kikoz85"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white" alt="Sostieni 4DJ su GitHub"></a>
@@ -45,6 +46,7 @@ Scarica l'installer per il tuo sistema dall'[ultima release](https://github.com/
 | iPhone e iPad, iOS/iPadOS 16 o successivo | [App Store](https://apps.apple.com/app/4dj/id6830381237) | Installa **4DJ** dall'App Store: è gratis, e l'App Store lo tiene aggiornato. |
 | Windows 10/11, x64 o ARM64 | [Microsoft Store](https://apps.microsoft.com/detail/9P5BWS6LM4BB) | Installa **4DJ - DJ Mixer** dallo Store: nessun avviso, e lo Store lo tiene aggiornato. |
 | Windows 10/11, x64 o ARM64 | `4DJ-<versione>-windows-x64.msi` o `-arm64.msi` | Avvia l'MSI. Se SmartScreen lo blocca, scegli **Ulteriori informazioni → Esegui comunque**. |
+| Linux x64 o ARM64, qualsiasi distribuzione con snapd | [Snap Store](https://snapcraft.io/4dj-mixer) | Installa **4DJ** dallo Snap Store, oppure `sudo snap install 4dj-mixer`: lo Snap Store lo tiene aggiornato. Per schede audio, MIDI e console: `sudo snap connect 4dj-mixer:alsa` e `sudo snap connect 4dj-mixer:raw-usb`. |
 | Linux x64 o ARM64: Debian, Ubuntu, Mint… | `4dj_<versione>_amd64.deb` o `_arm64.deb` | Aprilo con il programma di installazione, oppure `sudo apt install ./4dj_<versione>_amd64.deb` (`_arm64.deb` su ARM). |
 | Linux x64 o ARM64: Fedora, openSUSE… | `4dj-<versione>-1.x86_64.rpm` o `.aarch64.rpm` | Aprilo con il programma di installazione, oppure `sudo dnf install ./4dj-<versione>-1.x86_64.rpm` (`.aarch64.rpm` su ARM). |
 | Linux x64 o ARM64: qualsiasi distribuzione | `4DJ-<versione>-linux-x86_64.AppImage` o `-aarch64.AppImage` | Rendilo eseguibile (Proprietà → Consenti l'esecuzione) e aprilo. |
@@ -164,7 +166,7 @@ Per tutti i sistemi:
 
 Collegala e 4DJ la usa subito, scheda audio compresa (master e cuffie), su macOS, Windows e Linux. 4DJ parte da come è impostata la console: fader, EQ, gain, filtro, crossfader e volume vengono letti quando si collega, così un fader abbassato o i bassi al massimo lasciati sulla console si ritrovano uguali sullo schermo. Quando chiudi 4DJ, le luci della console si spengono. Su Windows e Linux 4DJ usa la sua scheda in modalità a bassa latenza: circa 7 ms su Windows, circa 8 ms su Linux (16 ms dove il sistema non dà la priorità real-time all'audio, così non ci sono interruzioni).
 
-Su Linux il .deb e l'.rpm danno a 4DJ l'accesso alla console già durante l'installazione: non c'è altro da fare. Con l'AppImage, la prima volta che colleghi la console 4DJ chiede di abilitarla: scegli **Enable** e inserisci la password una volta.
+Su Linux il .deb e l'.rpm danno a 4DJ l'accesso alla console già durante l'installazione: non c'è altro da fare. Con l'AppImage, la prima volta che colleghi la console 4DJ chiede di abilitarla: scegli **Enable** e inserisci la password una volta. Con la Snap collega una volta `alsa` e `raw-usb` (vedi Scarica e installa); per le console HID, come la S2 MK3, 4DJ mostra il comando da digitare quando la colleghi.
 
 | Controllo | In 4DJ |
 |---|---|
@@ -199,7 +201,7 @@ Su Windows e Linux ⌘ è Ctrl. In 4DJ premi **?** per l'elenco completo.
 
 ## Aggiornamenti
 
-4DJ cerca una nuova release a ogni avvio e ogni poche ore; quando ce n'è una, in alto compare **UPDATE** finché non la installi. In **Impostazioni → Interfaccia → Aggiornamenti** puoi spegnere il controllo automatico, oppure usare **Cerca aggiornamenti** quando vuoi. **Scarica e installa** scarica l'installer per il tuo sistema e lo apre: non viene installato nulla senza di te. Se hai installato 4DJ dal Microsoft Store o dall'App Store, gli aggiornamenti arrivano dallo Store.
+4DJ cerca una nuova release a ogni avvio e ogni poche ore; quando ce n'è una, in alto compare **UPDATE** finché non la installi. In **Impostazioni → Interfaccia → Aggiornamenti** puoi spegnere il controllo automatico, oppure usare **Cerca aggiornamenti** quando vuoi. **Scarica e installa** scarica l'installer per il tuo sistema e lo apre: non viene installato nulla senza di te. Se hai installato 4DJ dal Microsoft Store, dall'App Store o dallo Snap Store, gli aggiornamenti arrivano dallo Store.
 
 ## Sostieni 4DJ
 
