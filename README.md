@@ -5,12 +5,13 @@
 <h1 align="center">4DJ</h1>
 
 <p align="center">
-  DJ software for macOS, Windows and Linux (Android coming)<br>
+  DJ software for macOS, Windows, Linux, iPhone and iPad (Android coming)<br>
   <b>English</b> · <a href="README.it.md">Italiano</a> · <a href="https://github.com/kikoz85/4dj/releases/latest"><b>Download</b></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/kikoz85/4dj/releases/latest"><img src="https://img.shields.io/github/v/release/kikoz85/4dj?label=download&color=D4A64A" alt="Download"></a>
+  <a href="https://apps.apple.com/app/4dj/id6830381237"><img src="https://img.shields.io/badge/App%20Store-iPhone%20%26%20iPad-0D96F6?logo=apple&logoColor=white" alt="Download on the App Store"></a>
   <a href="https://apps.microsoft.com/detail/9P5BWS6LM4BB"><img src="https://img.shields.io/badge/Microsoft%20Store-get%20it-0078D4?logo=microsoft&logoColor=white" alt="Get it from the Microsoft Store"></a>
   <a href="https://www.enricofanucchi.com/en/app/4dj?utm_source=github&utm_campaign=4dj"><img src="https://img.shields.io/badge/website-enricofanucchi.com-F7941D" alt="Website"></a>
   <a href="https://github.com/sponsors/kikoz85"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white" alt="Sponsor 4DJ on GitHub"></a>
@@ -41,6 +42,7 @@ Download the installer for your system from the [latest release](https://github.
 | System | File | Install |
 |---|---|---|
 | macOS 13.4 or later (Apple Silicon and Intel) | `4DJ-<version>-macOS.dmg` | Open the DMG and drag 4DJ to Applications. The app is signed and notarized by Apple: it opens like any other. |
+| iPhone and iPad, iOS/iPadOS 16 or later | [App Store](https://apps.apple.com/app/4dj/id6830381237) | Install **4DJ** from the App Store: free, and the App Store keeps it up to date. |
 | Windows 10/11, x64 or ARM64 | [Microsoft Store](https://apps.microsoft.com/detail/9P5BWS6LM4BB) | Install **4DJ - DJ Mixer** from the Store: no warnings, and the Store keeps it up to date. |
 | Windows 10/11, x64 or ARM64 | `4DJ-<version>-windows-x64.msi` or `-arm64.msi` | Run the MSI. If SmartScreen stops it, choose **More info → Run anyway**. |
 | Linux x64 or ARM64: Debian, Ubuntu, Mint… | `4dj_<version>_amd64.deb` or `_arm64.deb` | Open it with your software installer, or `sudo apt install ./4dj_<version>_amd64.deb` (`_arm64.deb` on ARM). |
@@ -56,6 +58,7 @@ On first start the **Setup Assistant** asks for three things: the sound card, yo
 | **macOS** | macOS 13.4, Intel or Apple Silicon, 8 GB RAM | Apple Silicon (M1 or later), 16 GB RAM |
 | **Windows** | Windows 10 64-bit (x64 or ARM64), dual-core CPU, 8 GB RAM | Windows 11, quad-core CPU (Intel Core i5 8th gen / Ryzen 5 or better), 16 GB RAM |
 | **Linux** | 64-bit (x64 or ARM64) with glibc 2.35: Ubuntu 22.04, Debian 12, Fedora 36 or later; GTK 3, PipeWire or ALSA; quad-core CPU, 8 GB RAM | Ubuntu 24.04, Debian 13, Fedora 39 or later (needed for StemX); PipeWire; 16 GB RAM |
+| **iPhone / iPad** | iOS or iPadOS 16 | iPad with M1 or later |
 
 For every system:
 
@@ -133,6 +136,7 @@ For every system:
 - On a laptop the top bar shows the **battery**, so you always know how much is left during a set without mains power.
 - Knobs show their value in percent while they move.
 - A loading screen shows the version and each part of 4DJ as it loads.
+- **iPhone and iPad**: on the iPad 4DJ has the full layout of the computer, on the iPhone a layout made for the phone. The Kontrol S2 MK3 works in its MIDI mode (hold the left FLX button while you plug it in).
 - **Android** (coming): phone and tablet layouts for a whole set from the device, with the Kontrol S2 MK3 over USB.
 - **Five languages**: English, Italiano, Français, Deutsch and Español. 4DJ starts in your system's language (English when it is another one) and you can change it in **Settings → Interface → Global**. The words DJs use everywhere (PLAY, CUE, SYNC, LOOP, FX…) stay the same in every language.
 - **Help** inside 4DJ (the **?** at the top right): every function explained, with search, in your language.
@@ -195,7 +199,7 @@ On Windows and Linux, ⌘ is Ctrl. Press **?** in 4DJ for the full list.
 
 ## Updates
 
-4DJ looks for a new release at every start and every few hours; when there is one, **UPDATE** shows at the top until you install it. In **Settings → Interface → Updates** you can switch this off, or use **Check for Updates** at any time. **Download and Install** downloads the installer for your system and opens it; nothing is installed without you. If you installed 4DJ from the Microsoft Store, the Store updates it instead.
+4DJ looks for a new release at every start and every few hours; when there is one, **UPDATE** shows at the top until you install it. In **Settings → Interface → Updates** you can switch this off, or use **Check for Updates** at any time. **Download and Install** downloads the installer for your system and opens it; nothing is installed without you. If you installed 4DJ from the Microsoft Store or the App Store, the store updates it instead.
 
 ## Support 4DJ
 
