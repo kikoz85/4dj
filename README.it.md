@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/kikoz85/4dj/releases/latest"><img src="https://img.shields.io/github/v/release/kikoz85/4dj?label=download&color=D4A64A" alt="Download"></a>
-  <a href="https://apps.apple.com/app/4dj/id6830381237"><img src="https://img.shields.io/badge/App%20Store-iPhone%20%26%20iPad-0D96F6?logo=apple&logoColor=white" alt="Scarica dall'App Store"></a>
+  <a href="https://apps.apple.com/app/4dj/id6830381237"><img src="https://img.shields.io/badge/App%20Store-Mac%2C%20iPhone%20%26%20iPad-0D96F6?logo=apple&logoColor=white" alt="Scarica dall'App Store"></a>
   <a href="https://snapcraft.io/4dj-mixer"><img src="https://img.shields.io/badge/Snap%20Store-Linux-E95420?logo=snapcraft&logoColor=white" alt="Scarica dallo Snap Store"></a>
   <a href="https://apps.microsoft.com/detail/9P5BWS6LM4BB"><img src="https://img.shields.io/badge/Microsoft%20Store-scarica-0078D4?logo=microsoft&logoColor=white" alt="Scarica dal Microsoft Store"></a>
   <a href="https://www.enricofanucchi.com/it/app/4dj?utm_source=github&utm_campaign=4dj"><img src="https://img.shields.io/badge/website-enricofanucchi.com-F7941D" alt="Sito"></a>
@@ -42,6 +42,7 @@ Scarica l'installer per il tuo sistema dall'[ultima release](https://github.com/
 
 | Sistema | File | Installazione |
 |---|---|---|
+| macOS 13.4 o successivo (Apple Silicon e Intel) | [Mac App Store](https://apps.apple.com/app/4dj/id6830381237) | Installa **4DJ** dal Mac App Store: è gratis, e l'App Store lo tiene aggiornato. |
 | macOS 13.4 o successivo (Apple Silicon e Intel) | `4DJ-<versione>-macOS.dmg` | Apri il DMG e trascina 4DJ in Applicazioni. L'app è firmata e notarizzata da Apple: si apre come tutte le altre. |
 | iPhone e iPad, iOS/iPadOS 16 o successivo | [App Store](https://apps.apple.com/app/4dj/id6830381237) | Installa **4DJ** dall'App Store: è gratis, e l'App Store lo tiene aggiornato. |
 | Windows 10/11, x64 o ARM64 | [Microsoft Store](https://apps.microsoft.com/detail/9P5BWS6LM4BB) | Installa **4DJ - DJ Mixer** dallo Store: nessun avviso, e lo Store lo tiene aggiornato. |

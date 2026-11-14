@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/kikoz85/4dj/releases/latest"><img src="https://img.shields.io/github/v/release/kikoz85/4dj?label=download&color=D4A64A" alt="Download"></a>
-  <a href="https://apps.apple.com/app/4dj/id6830381237"><img src="https://img.shields.io/badge/App%20Store-iPhone%20%26%20iPad-0D96F6?logo=apple&logoColor=white" alt="Download on the App Store"></a>
+  <a href="https://apps.apple.com/app/4dj/id6830381237"><img src="https://img.shields.io/badge/App%20Store-Mac%2C%20iPhone%20%26%20iPad-0D96F6?logo=apple&logoColor=white" alt="Download on the App Store"></a>
   <a href="https://snapcraft.io/4dj-mixer"><img src="https://img.shields.io/badge/Snap%20Store-Linux-E95420?logo=snapcraft&logoColor=white" alt="Get it from the Snap Store"></a>
   <a href="https://apps.microsoft.com/detail/9P5BWS6LM4BB"><img src="https://img.shields.io/badge/Microsoft%20Store-get%20it-0078D4?logo=microsoft&logoColor=white" alt="Get it from the Microsoft Store"></a>
   <a href="https://www.enricofanucchi.com/en/app/4dj?utm_source=github&utm_campaign=4dj"><img src="https://img.shields.io/badge/website-enricofanucchi.com-F7941D" alt="Website"></a>
@@ -42,6 +42,7 @@ Download the installer for your system from the [latest release](https://github.
 
 | System | File | Install |
 |---|---|---|
+| macOS 13.4 or later (Apple Silicon and Intel) | [Mac App Store](https://apps.apple.com/app/4dj/id6830381237) | Install **4DJ** from the Mac App Store: free, and the App Store keeps it up to date. |
 | macOS 13.4 or later (Apple Silicon and Intel) | `4DJ-<version>-macOS.dmg` | Open the DMG and drag 4DJ to Applications. The app is signed and notarized by Apple: it opens like any other. |
 | iPhone and iPad, iOS/iPadOS 16 or later | [App Store](https://apps.apple.com/app/4dj/id6830381237) | Install **4DJ** from the App Store: free, and the App Store keeps it up to date. |
 | Windows 10/11, x64 or ARM64 | [Microsoft Store](https://apps.microsoft.com/detail/9P5BWS6LM4BB) | Install **4DJ - DJ Mixer** from the Store: no warnings, and the Store keeps it up to date. |
